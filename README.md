@@ -23,4 +23,4 @@ And to set up an output file name.
 
 Once all the notebook cells are executed, an output file with the results will be stored at the project's root.
 
-To reproduce the steps done by the authors during the evaluation, you can paste the results to the file /results/Sample-results-sheet.xlsx in the sheet "Results-raw." Then, the results can be seen as the provided results in the same file "Results-formatted" sheet.
+To reproduce the steps done by the authors during the evaluation, you can paste the results to the file **/results/Sample-results-sheet.xlsx** in the sheet **Results-raw** Then, the results can be seen as the provided results in the same file **Results-formatted** sheet.
