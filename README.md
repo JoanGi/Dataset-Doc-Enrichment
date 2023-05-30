@@ -6,12 +6,12 @@ This repository is anonymized to comply with the anonymization policies of the C
 
 In this repository, you will find the results and the code to reproduce the experiments of the submission titled: "Exploring the Use of Language Models to Enhance Datasets Explainability via Documentation."
 
-#### Checking the results 
+### Checking the results 
 To check out the results of the experiment, please, go to the **ExperimentResults.xlsx.**  in the **"/results"** folder.
 
 You will find instructions and guides inside the file to help you follow and understand the results.
 
-#### Reproducing the results 
+### Reproducing the results 
 To reproduce the results can execute the notebook **"dataset_extraction.ipynb"** to reproduce the results.
 
 You must install Java and Python 3 in your system to execute this file.
