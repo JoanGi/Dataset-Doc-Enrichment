@@ -1,0 +1,215 @@
+An annotated dataset for event-based surveillance of antimicrobial resistance
+
+
+Nejat Arınık , Wim Van Bortel , Bahdja Boudoua , Luca Busani
+Rémy Decoupes , Roberto Interdonato , Rodrique Kafando 
+Esther van Kleef , Mathieu Roche , Mehtab Alam Syed 
+Maguelonne Teisseire 
+
+
+Keywords: Antimicrobial resistance (AMR), Text mining, Annotation, Epidemiology
+
+
+Abstract:
+This paper presents an annotated dataset used in the MOOD
+Antimicrobial Resistance (AMR) hackathon, hosted in Montpellier, June 2022. The collected data concerns unstructured data from news items, scientiﬁc publications and national or international reports, collected from four event based surveillance (EBS) Systems, i.e. ProMED, PADI-web, HealthMap and MedISys. Data was annotated by relevance
+for epidemic intelligence (EI) purposes with the help of AMR
+experts and an annotation guideline. Extracted data were
+intended to include relevant events on the emergence and
+spread of AMR such as reports on AMR trends, discovery of
+new drug-bug resistances, or new AMR genes in human, animal or environmental reservoirs. This dataset can be used
+to train or evaluate classiﬁcation approaches to automatically identify written text on AMR events across the different reservoirs and sectors of One Health (i.e. human, animal, food, environmental sources, such as soil and waste water)
+in unstructured data (e.g. news, tweets) and classify these
+events by relevance for EI purposes.
+© 2023 The Authors. Published by Elsevier Inc.
+This is an open access article under the CC BY-NC-ND
+license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+
+Value of the Data
+• This dataset contributes to the available resources for Natural Language Processing (NLP) on
+specialized domains and more precisely in the ﬁeld of AMR surveillance and epidemic intelligence.
+• It is useful for computer scientists for NLP and data mining tasks.
+• It can be used for evaluation or training purposes for classiﬁcation tasks.
+• It has a degree of heterogeneity capable to cover different disciplines of the AMR domain
+• It is useful for the detection of information across the One Health domains (humans, animals
+and environment) and interactions between these domains (e.g. transmission or exchange of
+AMR bacteria or AMR genes within and between domain reservoirs)
+• It can support the development of methodology that can automatically classify EBS AMR
+data, hence facilitate relevant epidemic intelligence activities for AMR across the One Health
+domains
+
+
+1. Objective
+The emergence and spread of drug-resistant pathogens has led to antimicrobial resistance
+(AMR) being considered a major public health problem. AMR surveillance in Europe and elsewhere helps monitor trends and detect potential emerging threats. These surveillance activities
+- commonly referred to as epidemic intelligence - largely concern indicator-based surveillance (IBS), i.e. the monitoring of pre-deﬁned indicators based on clear case deﬁnitions and structured data collection by public, animal, and environmental health institutes nationally and globally (e.g. the yearly number of hospital-based bloodstream infections caused by third-generation
+cephalosporin resistant Enterobacterales).
+Unoﬃcial and unstructured data sources such as news articles and data from social media,
+may provide alternative and complementary data to the oﬃcial surveillance to address some of
+the limitations of IBS. The latter is commonly referred to as event-based surveillance (EBS) [2].
+It is in this context that the H2020 MOOD project (MOnitoring Outbreaks for Disease surveillance in a data science context) organized a hackathon challenge led by TETIS.2 The MOOD
+project aims to explore the potential of data science for epidemic intelligence purposes. This
+includes data mining, analysis and visualization techniques of health, environmental and other
+data to enhance the utility of EBS.
+
+
+2. Data Description
+In the course of the MOOD AMR hackathon, interdisciplinary teams were formed that collectively worked on new technical solutions to mine and visualize unstructured data from four
+EBS systems. The main objective of the hackathon task was to develop and test classiﬁcation approaches that automatically identiﬁed AMR events and reservoirs of concern (e.g. animal, food,
+environment, etc.) and classiﬁed these events by their relevance for epidemic intelligence purposes. Extracted data were intended to include important events on the emergence and spread
+of AMR such as reports on AMR trends, discovery of new drug-bug resistances, or new AMR
+genes in human, animal or environmental reservoir.
+The corpus dataset was curated and mined by the TETIS team from four EBS-systems:
+ProMED, PADI-web, HealthMap and MedISys. The four sub-datasets from the respective EBS
+sources were manually annotated according to three main classes (New Information, General
+Information, Not Relevant). Data observation labeled as New Information or General Information
+were subsequently annotated according to a host classiﬁcation system referring to host and/or
+transmission reservoirs (e.g. Humans, animals, Environment, etc). An annotation guideline was
+provided to facilitate a uniﬁed manual annotation across three annotators (AMR experts). Each
+EBS dataset contains 100 articles and two levels of annotation are provided. The datasets composed by both labeled corpora and annotation guidelines are publicly available online.3
+We have two corpora: D1 for thematic classiﬁcation with three 3 main classes (New Information, General Information, Not Relevant + Don’t Know class) and D2 for host classiﬁcation with 7
+classes (Humans, Human-animal, Animals, Human-food, Food, Environment, and All). Corpus D2 is
+a subset of D1 , it concerns only New Information and General Information data from D1 .
+Tables 1 and 2 respectively detail the distribution per class for D1 and D2 corpora. Dominant
+and minor classes are highlighted in order to illustrate the class imbalance for each dataset. The
+D1 corpora datasets, as well as D2 corpora datasets, are named according to their sources as
+follows:
+D1 .1 -ProMED_url_thematic_classiﬁcation.csv
+D1 .2 -PADI-web_thematic_classiﬁcation.csv
+D1 .3 -HealthMap_url_thematic_classiﬁcation.csv
+D1 .4 -MedISys_url_thematic_classiﬁcation.csv
+
+D2 .1 -ProMED_url_host_classiﬁcation.csv
+D2 .2 -PADI-web_host_classiﬁcation.csv
+D2 .3 -HealthMap_url_host_classiﬁcation.csv
+D2 .4 -MedISys_url_host_classiﬁcation.csv
+
+
+
+Table 1
+Statistics on D1 corpus. The columns represent the four considered EBS surveillance systems, and the ﬁrst four rows
+correspond to the classes established for thematic classiﬁcation. The last row simply indicates the total number of documents in each EBS surveillance system. Finally, each entry in the table indicates as a percentage how frequent a speciﬁc
+class in a given surveillance system. These percentage values are highlighted with different gray scales.
+Class
+
+
+Table 2
+Statistics on D2 corpus. The columns represent the four considered EBS surveillance systems, and the ﬁrst seven rows
+correspond to the classes established for host classiﬁcation. The last row simply indicates the total number of documents
+in each EBS surveillance system. Finally, each entry in the table indicates as a percentage how frequent a speciﬁc class
+in a given surveillance system. These percentage values are highlighted with different gray scales.
+
+
+3. Experimental Design, Materials and Methods
+The sub-datasets coming from each of different EBS-systems annotated according to the
+guidelines describing in the following sub-sections.
+
+
+3.1. Guidelines
+The guidelines were designed according to an iterative process made of multiple annotation
+rounds. The ﬁrst annotation round was done by three AMR experts.4 The experts were asked to
+annotate independently a sample made of 25 AMR related articles extracted from PADI-web [3].
+These AMR related articles were annotated to classify their relevance for epidemic intelligence
+purposes. The annotator had to choose one single label for each of the two classiﬁcation types:
+1. Thematic classiﬁcation: This class aims to describe the main content of the article.
+2. Host resistance and pathogen classiﬁcation: This class aims to outline which reported host
+or hosts the AMR event concerned (reservoir or transmission source).
+A ﬁrst guideline version was established with thematic and host classiﬁcation classiﬁcation.
+After the ﬁrst round, the experts discussed the annotation disagreements, and decided on a reformulation and reﬁnement of the deﬁnitions and on the merging of labels. The goal was to
+make the guideline as generic as possible and as precise as necessary so that non-expert annotators could annotate the AMR articles without running into ambiguity issues. After this ﬁst
+round of annotations the modiﬁcations were integrated in order to established a ﬁnal guideline
+version described in Table 3.
+
+
+3.2. Corpus
+This section outlines how the corpus was acquired. We built our corpus from four EBS
+surveillance systems. Next, we describe these surveillance systems, as well as their data acquisition strategies.
+
+• HealthMap: It is operating since 2006. It is an automated and curated aggregator of a broad
+range of data sources, such as Twitter, Google News, Baidu and SoSo news aggregators and
+ProMED in nine languages. The automated part of the tool extracts information on the disease, location of the event and the host. The curated outbreak-related information is displayed on a freely available, visual interface. HealthMap addresses a wide range of health
+threats (human, animal and plant infectious diseases, as well as environmental risks) [4].
+• ProMED: It is a program of the International Society for Infectious Diseases (ISID) [5]. It was
+launched in 1994 as an Internet service to identify unusual health events related to emerging
+and re-emerging infectious diseases and toxins affecting humans, animals and plants. Information is selected for publication by subject matter expert moderators who provide written
+commentary, giving the reader the necessary historical context and/or clinical background to
+understand the importance of the information being reported. ProMED posts also supply references to previous reports and to the scientiﬁc literature. Reports are simultaneously posted
+to ProMED’s website and sent to ProMED subscribers by email.
+• MedISys: It is an EBS system developed by the European Commission Directorate General for
+Health and Consumers (DG SANCO) and the Joint Research Centre (JRC) of the European Commission. The system monitors web-based information (media articles and open-source public health reports) about human, animal and plant infectious diseases, chemical, biological,
+radiological and nuclear (CBRN) threats, and food contaminations. MedISys retrieves approximately 10 0,0 0 0 news articles from more than 2500 selected media sources per day. In the
+context of this work, 100 articles are selected from MedISys alerts from communicable disease “Antimicrobial resistance”. The data is curated from the RSS feeds of AMR alerts URL.5
+The data is extracted from RSS feeds using automated approach with the help of python
+libraries feedparser and newspaper3k [6].
+• PADI-web: It is operating since 2016. It is an automated EBS tool that monitors the Google
+News aggregator in sixteen languages. The tool gathers outbreak-related online news and
+extracts epidemiological information on the disease, location of the event, the host, clinical
+signs and number of cases. PADI-web monitors animal health threats for known emerging
+infectious diseases and new infectious diseases via syndromic surveillance. This tool is currently in use by the French epidemic intelligence team in animal health [3].
+
+
+3.3. Experiments
+To illustrate the usefulness of our two annotated corpora D1 and D2 , we present a text classiﬁcation task, publicly available online.3 For each corpus, we perform this task through generic
+state-of-the-art NLP techniques in ﬁve steps.
+First, we transform the raw text documents by removing irrelevant elements (pictures, ads,
+hyperlinks, etc.) and by applying classical preprocessing techniques (removing special characters, lowercasing, lemmatization, tokenization) [7]. Second, we convert the preprocessed texts
+into numerical feature vectors with two well-known feature extraction methods: 1) Tf-Idf (Term
+Frequency - Inverse Document Frequency weighting) [8] and 2) Doc2Vec [9]. These two methods
+are tested separately and in combination.
+Third, we rely on Support Vector Machines (SVM) [10] for prediction, which is a widely used
+machine learning method for text classiﬁcation. During the prediction process, we exhaustively
+consider all parameter combinations of SVM to keep the best model. Fourth, we train SVM based
+on the extracted features using 5-cross-validation. In the cross-validation we split the data into
+ﬁve same-sized parts containing the same ratio of output classes. In each same-sized part, we
+use a 80%-train / 20%-test split, which means, for each run of the cross-validation, the train set
+is composed of 8 of those parts while the test set is composed of the remaining two.
+
+It is worth noticing that both corpora D1 and D2 have an unequal distribution of classes (i.e.
+class imbalance), as described in Section 2. This can severely affect the prediction algorithms, depending on the skewness degree of the class distributions. With a greater imbalanced ratio (e.g.
+three classes with the ratio of 90 0:30 0:10 texts), such a prediction algorithm favors the class
+with the larger number of texts. To deal with this problem, we use a multi-class resampling
+method called SMOTETomek [11] during the training, which combines over and under-sampling
+techniques employed in the literature to alter the class distributions toward a more balanced distribution. This resampling method is only applied onto the training set in the 5-cross-validation.
+Finally, we estimate the performance of the trained SVM model using three evaluation metrics: Precision, recall, F-measure. Since each output class is of equal importance, we calculate
+these metrics for each output class and ﬁnd their unweighted mean, so-called the macro-average
+calculation. The evaluation is presented in Table 4. We can summarize it in three parts.
+First, we see that Tf-Idf and Doc2vec features give very similar results for the corpus D1
+(3 classes), whereas Doc2vec features contribute more to the prediction for the corpus D2 (7
+classes). Since all documents constituting seven output classes in D2 (Humans, Animals, Environment, Food, Human-animal, Human-food, All) are AMR-related, it is possible that the same
+relevant words are frequently used in any output class of D2 . This seems to reduce the effect of
+Tf-Idf, hence favors Doc2vec over Tf-Idf in D2 . Second, Tf-Idf and Doc2vec features seem to be
+complementary in both corpora D1 and D2 , since SVM better performs with their combination.
+Finally, the prediction results for Corpus D2 are approaching a baseline value of 0.5. However,
+they are worse than those for Corpus D1 . This is expected, since there are more output classes,
+and this makes the task more challenging.
+Overall, for both corpora we obtain a baseline prediction performance based on Tf-Idf and
+Doc2vec features. Nonetheless, these results reveal the necessity of considering more features,
+particularly AMR-related ones (e.g. AMR symptoms, antibiotic names), in order to obtain better
+prediction results.
+
+Ethics Statement
+The content of media data is anonymized by removing the user names and the names of
+person in transcripts (using SpaCy for name recognition).
+
+Declaration of Competing Interest
+The authors declare that they have no known competing ﬁnancial interests or personal relationships that could have appeared to inﬂuence the work reported in this paper.
+
+Data Availability
+MOOD - News AMR dataset - Hackathon 2022 (Original data).
+
+
+
+CrediT Author Statement
+Nejat Arınık: Data curation, Methodology, Software, Writing – review & editing; Wim Van
+Bortel: Data curation, Writing – review & editing; Bahdja Boudoua: Data curation, Methodology, Writing – review & editing; Luca Busani: Data curation, Writing – review & editing;
+Rémy Decoupes: Methodology, Writing – review & editing; Roberto Interdonato: Data curation,
+Methodology, Software, Writing – review & editing; Rodrique Kafando: Data curation, Methodology, Software, Writing – review & editing; Esther van Kleef: Data curation, Writing – review &
+editing; Mathieu Roche: Data curation, Methodology, Writing – review & editing; Mehtab Alam
+Syed: Methodology, Software, Data curation, Writing – review & editing; Maguelonne Teisseire:
+Data curation, Methodology, Writing – review & editing.
+
+Acknowledgments
+This study was partially funded by EU grant 874850 MOOD and is catalogued as MOOD052.
+The contents of this publication are the sole responsibility of the authors and do not necessarily
+reﬂect the views of the European Commission.

@@ -1,0 +1,151 @@
+Human-annotated dataset for social media
+sentiment analysis for Albanian language
+
+Fatbardh Kadriu, Doruntina Murtezaj, Fatbardh Gashi, Lule Ahmedi, Arianit Kurti, Zenun Kastrati
+
+
+University of Prishtina, Prishtina 10000, Kosovo
+Linnaeus University, Växjö 351 95, Sweden
+
+Abstract: Social media was a heavily used platform by people in different countries to express their opinions about different crises,
+especially during the Covid-19 pandemics. This dataset is created through collecting people’s comments in the news items
+on the oﬃcial Facebook site of the National Institute of Public Health of Kosovo. The dataset contains a total of 10,132
+comments that are human-annotated in the Albanian language as a low-resource language. The dataset was collected
+from March 12, 2020, and this coincides with the emergence
+of the ﬁrst conﬁrmed Covid-19 case in Kosovo until August
+31, 2020, when the second wave started. Due to the scarcity
+of labeled data for low-resource languages, the dataset can
+be used by the research community in the ﬁeld of machine
+learning, information retrieval, affective computing, as well
+as by the public agencies and decision makers.
+
+
+Value of the Data:
+This dataset is useful for the research community for two reasons: (1) it is a dataset for sentiment analysis of social media comments in Albanian language that would push forward the
+research in the ﬁeld of sentiment analysis for low-resource languages; (2) this dataset could
+serve as a standard benchmark for testing performance of the existing and new machine
+learning methods and techniques as it is curated and human annotated. By sharing the data,
+we also increase the transparency and research utilization through enabling the reproduction
+of the results [1].
+The research community in the ﬁelds of machine learning, information retrieval, affective computing, education can beneﬁt from these data by using them in various research
+tasks such as: (multilingual) sentiment analysis, opinion mining, performance analysis of
+deep/machine learning models and techniques. By making these data open we join the global
+movement that is not only advancing science and scientiﬁc communication but also transforming modern society and how decisions are made [2].
+Another possible value of these data is that they could be used by public agencies and decision makers to prevent the distribution of fake news in social media during crisis situations
+such as the current Covid-19 pandemics. This becomes especially important in the emerging
+economies where the scientiﬁc infrastructure is not very developed [3]. Thus, these kinds of
+curated scientiﬁc datasets can contribute to policy making as well.
+
+1. Data Description
+Research on social media sentiment analysis for the English language has achieved signiﬁcant results already [4–6], considered as critical for different online social platforms and natural languages towards identifying online discourse, like are reactions from different cultures to
+the Coronavirus actions taken by different countries. Work on other languages concerning social media sentiment analysis is also growing, such as on German [7], Swedish [8], Urdu [9] or
+multilingual social media posts [10].
+On the other hand, sentiment analysis for the Albanian language stands behind even some
+other low resource languages, with only few works on sentiment analysis (opinion mining)
+[11,12], emotion detection [13] and hate speech [14]. As deﬁciency of an Albanian language
+larger corpus of data is what these works characterize, being a prerequisite to develop a highperformance sentiment classiﬁer for opinion mining, the dataset presented in this article aims
+to exactly address that low resource drawback typical for low-resource languages. Only a very
+recent study [14] has contributed with the so-called Shaj dataset, an annotated Albanian dataset
+of size range similar to our dataset, with 11874 comments from various social media platforms,
+but annotated for hate and offensive speech.
+The Dataset presented in this article comprises comments collected from the oﬃcial Facebook
+page of the NIPHK Institute for a period of 6 months, from March 12 till August 31, 2020. On
+March 12, the ﬁrst case of Covid-19 was conﬁrmed in Kosovo. Comments were in Albanian language and are retrieved using a tool called Comment Exporter1 . This work aims to identify and
+extract the opinions and attitudes of Kosovo citizens expressed on Facebook about the Covid19 pandemics by manually annotating comments according to their sentiment, such as positive,
+negative, and neutral. This dataset is anonymized according to the Facebook Platform Policy for
+Developers [15] and contains a total of 10,132 comments along with 12 attributes. The names
+of all attributes of the dataset and their respective descriptions are presented in Table 1. The
+data discussed in this article are related to the research article entitled “A Deep Learning Sentiment Analyser for Social Media Comments in Low-Resource Languages” [16]. The dataset and its
+supplementary ﬁles are hosted in the Mendeley Data repository [17].
+Each comment in the dataset is assessed regarding the sentiment by three researchers. Neutral comments are marked with 0, positive comments are marked with 1 and negative comments
+are marked with 2. The comment with the most engagement has 287 impressions including likes
+and emojis.
+
+On average each news post in the National Institute of Public Health of Kosovo (NIPHK) Facebook site generated 59.25 comments. Table 2 shows examples of neutral, positive and negative
+comments annotated by the researchers.
+
+
+Table 1
+Description of the attributes constituting the dataset.
+Attribute
+
+
+Table 2
+Examples of neutral, positive and negative sentiments [2].
+Comment (English translation)
+
+
+Fig. 1. The daily trend of sentiments
+
+Table 3
+The number of comments for each sentiment class.
+
+
+Fig. 2. Word cloud for words in the dataset
+
+The opinions of the people have changed over time, and this can be observed from Fig. 1
+that shows the daily trend of the sentiments. This ﬁgure illustrates that the number of comments increases continuously starting from dozens of them, when the ﬁrst cases of Covid-19
+occurred and reached the peak during July. Then a noticeable decrease of the number of comments, in general, is shown during August. It should be noted that during all these dates the
+neutral sentiment dominates, compared to the negative and positive ones.
+The number of comments for each sentiment class and their respective percentages are given
+in Table 3. The neutral comments dominate, whereas the positive comments are less represented.
+The most frequent words in the dataset are shown in Fig. 2, generated by word cloud in
+Python. Only words with 5 or more characters are included.
+The ten most frequent words occurring in the dataset are presented in Table 4. As text processing features such as stemming and lemmatization are not supported by tools for processing
+the Albanian language, then words with the same meaning can appear multiple times in different constructs (such as: raste - rastet, virus - virusi).
+To assess the accuracy of the manually labeled data, we used a quality assurance method
+called Annotation Redundancy with Targeted Quality Assurance [18]. Three annotators have annotated the same data samples independently and an inter-annotator disagreement is calculated
+using Pearson correlation. Correlation values between the three annotators are shown in Table 5.
+The annotators 1 and 3 have the strongest agreement with a correlation of 0.62.
+In addition to Pearson correlation, we have calculated the reliability of the agreement between the annotators using Fleiss’s Kappa statistical measure.
+Table 6 shows the ranks which determine the type of agreements between annotators. Fleiss’s
+Kappa coeﬃcient for our three annotators is 0.60, which is considered a moderate agreement.
+The number of comments in each sentiment class, distributed over months is shown in
+Table 7. The maximum number of neutral and negative comments is reported in July. The highest number of positive comments is in May.
+
+
+Fig. 3. Workﬂow process for the creation of the dataset.
+
+
+2. Experimental Design, Materials and Methods
+The workﬂow for creating the dataset is depicted in Fig. 3. The initial step is extraction of
+the comments from Facebook using the Comment Exporter tool. The entry point of the Comment Exporter tool is the Facebook post URL, while the output is an Excel ﬁle containing all the
+comments from the given post. In addition, the Excel ﬁle is enriched with four other attributes
+and metadata related to the Facebook post.
+In the second step, ﬁve other attributes related to the Covid-19 statistics are added by reading the content of the Facebook post. The third step entails the merge of all Excel ﬁles for
+each Facebook post into a single Excel ﬁle. Next the aggregated data set has been processed
+by anonymizing and removing duplicates as well as profanity language. During the ﬁfth step,
+three researchers have independently assessed the sentiment of the comments in the dataset.
+Assessment has been done using three sentiment polarities: positive, negative, and neutral. The
+ﬁnal sentiment of each comment is assigned using a majority voting scheme. This step ﬁnalized
+our dataset as a CSV ﬁle.
+The dataset covers comments from a sole social media platform, i.e. Facebook, over severalmonths timespan. It could in the future be extended to contain comments from other social
+media platforms like Twitter, Instagram, and so forth, spanning longer period of time. Future
+research using the dataset presented in this article might extend to other domains like detecting
+emotions or other multi-class text mining tasks (e.g., review of items in the scale 1 to 10) in the
+Albanian Language.
+
+Ethics Statements
+Data has been collected according to the data owner terms of service. The dataset described
+in this article is completely anonymized and does not contain any personal data, and thus we
+are complying with the regulations provided by the platform owner. This project required that
+we balance our research design with the protection of personal data while aiming to generate
+new valuable knowledge for the greater societal good [19]. Consequently, we have chosen our
+approach to protect the conﬁdentiality of the personal data completely and thoroughly, while
+still leveraging the anonymised data for generating research results of a higher societal value.
+
+
+Declaration of Competing Interest
+The authors declare that they have no known competing ﬁnancial interests or personal relationships which have or could be perceived to have inﬂuenced the work reported in this article.
+CRediT Author Statement
+Fatbardh Kadriu: Methodology, Software, Writing – original draft; Doruntina Murtezaj: Software, Writing – original draft; Fatbardh Gashi: Software, Writing – original draft; Lule Ahmedi:
+Conceptualization, Methodology, Writing – original draft; Arianit Kurti: Conceptualization, Validation, Writing – original draft; Zenun Kastrati: Conceptualization, Validation, Writing – original
+draft, Supervision.
+
+Acknowledgments
+This research did not receive any speciﬁc grant from funding agencies in the public, commercial, or not-for-proﬁt sectors.
+
+Supplementary Materials
+Supplementary material associated with this article can be found in the online version at
+doi:10.1016/j.dib.2022.108436.
+

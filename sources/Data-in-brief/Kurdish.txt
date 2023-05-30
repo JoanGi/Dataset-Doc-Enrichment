@@ -1,0 +1,212 @@
+
+
+A vast dataset for Kurdish handwritten digits
+and isolated characters recognition
+Peshraw Ahmed Abdalla a,∗, Abdalbasit Mohammed Qadir b,
+Mohammed Y. Shakor c, Ari M. Saeed a, Abdalla Taha Jabar a,
+Ali Abdalla Salam a, Hedi Hamid Hama Amin a
+
+
+abstract: This article presents two massive datasets for central Kurdish
+handwriting digits and isolated characters named K-ZHMARA
+and K-PIT. The ﬁrst dataset, named K-ZHMARA dataset, contains 70,0 0 0 images of Kurdish digits, 70 0 0 images for each
+digit, and a printed A4 paper with a grid of 10 × 10 is used
+for data collection. Apart from digits, the K-PIT dataset includes 245,0 0 0 images of all Kurdish characters, 70 0 0 images
+for each character; data was collected via a printed A4 paper with a grid of 12 × 10 for this dataset. Moreover, both
+datasets include 315,0 0 0 images. Python programming has
+been used to scan each piece of paper, segment, crop, resize,
+binarize, and invert the images via edge detection and image
+processing techniques.
+
+
+Speciﬁcations Table
+Subject Pattern :Recognition, Computer Vision, and Deep Learning
+Speciﬁc subject area: A vast dataset for Kurdish digits and isolated characters recognition
+Type of data: Image
+How data were: The collected handwriting images were captured using a scanner and then
+segmented, cropped, resized, binarized, inversed, and annotated.
+acquired
+Data format: Raw data, JPG format
+Description of data collection: Each handwritten digit and character were written on an empty printed grid paper
+to facilitate the segmentation process.
+Writers were advised to write the digits and characters in the right boxes
+according to its label. Data collection forms were collected from more than 1500
+participants. The handwritten characters and digits are segmented using bounding
+boxes. Each of the bounding boxes contains the characters that are written.
+Data source location: Halabja, Kurdistan Region, Iraq
+Data accessibility: Data identiﬁcation number: 10.17632/zb66pp7vjh.1
+Direct URL to data:
+https://dx.doi.org/10.17632/zb66pp7vjh.1
+
+
+Value of the Data
+• In the study of pattern recognition and image processing, handwriting recognition is regarded as an exciting and motivating problem. It can be used in a variety of ways, such
+as applications to learn the characters and digits for children, reading assistance for the
+blind, computerized reading, processing for paper documents, and turning any handwritten material into structural text.
+• The datasets can be used for handwriting optical character/digit recognition and identiﬁcation using machine learning and deep learning models.
+• Both datasets are ready to implement since they are pre-processed (including suspending excess lighting and noises, segmentation, cropping, resizing, binarization image, and
+inverse images) for each character and digit.
+• Deep learning and machine learning researchers are interested in central Kurdish or other
+languages with similar scripts, such as Persian, Arabic, and Urdu.
+• The datasets can be used as a standard for usability and quality in subsequent works
+because they were collected in a precise way, and it is vast data that can achieve higher
+accuracy in designed models.
+
+1. Objective :OCR aims to modify or convert any type of text or text-containing document, including handwritten, printed, or scanned text images, into a digital format that may be edited and used for more in-depth processing. OCR allows a machine to recognize text in such materials automatically. A few signiﬁcant obstacles must be identiﬁed and overcome to automate successfully, for
+instance, the existence of a huge and reliable dataset.
+There has not been much research done on automatically recognizing Kurdish handwritten
+characters and digits since machine and deep learning models need huge datasets to achieve
+high accuracy; the aim of this work is to prepare two huge datasets for the Kurdish language
+named K-PIT (for Kurdish characters) and K-ZHMARA (for Kurdish digits), these datasets can be
+used to build a model for handwriting optical character/digit recognition and identiﬁcation via
+deep learning and machine learning approaches.
+
+
+
+2. Data Description: Kurdish language dialects are used across four main nation-states in the Middle East [2], and
+only one dialect, Sorani, has oﬃcial status in one of these nation-states. The majority of Kurdishspeaking regions are located in Turkey, Iraq, Iran, and Syria. More than 40 million people speak
+Kurdish as a whole, according to estimates [3,4]. One of the two main dialects of Kurdish, known
+as Central Kurdish (Sorani), is spoken by an estimated 9 to 10 million people [5]. It is mostly
+written with a 35-character modiﬁed Arabic/Persian alphabet without characters that have recently been replaced, such as (‫)ك‬, which is no longer used by the Kurdish language and has
+been replaced with (‫[ )ک‬6,7]. A large database of isolated handwritten Central Kurdish digit and
+character images has been developed in this effort, totaling 315,0 0 0 images, with 70 0 0 images
+of each handwritten by more than 1500 native individuals. Table 1 shows the number of images and the percentage of each character in the K-PIT database. The Quantity and Proportion
+of Digits Obtained for the K-ZHMARA Dataset are shown in Table 2. Central Kurdish uses modiﬁed Arabic/Persian (Farsi) characters for writing, and there are numerous expansive databases of
+Persian and Arabic handwriting characters for recognition of oﬄine characters; some databases
+even assert that their database can be used to recognize other languages that use the Arabic
+scripts, for instance, Kurdish [8–10]. Nevertheless, there are three primary issues. The ﬁrst is
+that it does not include all of the Kurdish letters, such as V(‫)ڤ‬, L (‫)ڵ‬, J(‫)ژ‬, R(‫)ڕ‬, and O (‫)ۆ‬. The
+Kurdish language has an inconsistent quantity and percentage of characters, which is the second
+issue. The third problem is all the datasets worked with the characters only and ignored the
+digits.
+
+
+3. Experimental Design, Materials and Methods
+The data collection methodology for preparing a handwritten image dataset includes several phases, such as gathering handwritten data from participants via designed forms which are
+labelled to indicate the type and position of the character/digit. The second step is a scanner
+device that scans the collected data in forms. Next, the scanned forms are processed and segmented in order to extract each digit or character as a separate image. Then some pre-processing
+techniques are applied to the images in order to achieve higher accuracy percentage when the
+dataset is used for machine learning models such as binarization and inverting the images. The
+last step is labeling; each similar digit or character is stored in a speciﬁc folder for both test and
+train directories with unique IDs.
+
+3.1. Data Collection
+The ﬁrst step in creating a database is often locating an appropriate data source. Here, gathering examples of handwritten Kurdish numbers and characters from several different writers
+is the main objective. This task can be achieved by designing several suitable forms for Kurdish
+digits and characters. Fig. 1 demonstrates a form designed to collect Kurdish digits for the KZHMARA dataset, and it contains 100 empty boxes; each line is labeled with a speciﬁc number,
+and the participants have to ﬁll the forms according to the labels.
+Each digit is to be written ten times by the writers in each empty line. The number of individuals who participated in building the K-ZHMARA dataset was approximately 700. Similarly,
+Fig. 2 is another example designed to collect the Kurdish characters for the K-PIT dataset, and
+it contains 120 empty boxes; each line is labeled with a speciﬁc character. Since the Kurdish
+language (Sorani) has 35 characters without characters that have recently been replaced, we designed three forms, two forms with 12 characters and the last form with 11 characters. Each
+participant was asked to ﬁll out all three forms. Each character is to be written ten times by
+the writers in each empty line. The number of individuals who participated in building the KZHMARA and K-PIT dataset is more than 1500. The total number of the forms used to collect
+
+
+Table 1
+Quantity and proportion of characters obtained for the K-PIT dataset.
+
+Kurdish digits was 700 and for the Kurdish characters was 2100, meaning that there were 2400
+forms ﬁlled out by the volunteers who built the datasets. Several places were selected to ﬁll the
+forms, students from 5 different colleges of the University of Halabja, the university students
+who stay in the dormitory of the University of Halabja, and several primary and preparatory
+schools in Halabja governate; as a result, each character have 700 distinct images.
+
+
+Fig. 1. An empty data form for Kurdish handwritten digits.
+
+3.2. Processing of Forms
+The forms were ﬁlled out by the participants and scanned via a scanner. The scanner may
+produce ﬁles in the following formats: pdf, jpeg, png, or tiff. The scanner uses 75 to 600 dpi to
+scan documents. The png format was chosen for the initial scan of the forms since JPEGs contain
+less data than PNGs. Due to the forms being white, all forms were ﬁlled out using a black or
+dark blue pen. Fig. 3 displays a sample of a scanned page.
+
+3.3. Image Pre-Processing
+Pre-processing stage is a crucial step in every recognition system. It is used to enhance the
+quality of pictures. First, the big square border has been detected using Python programming
+language and 4 point detection algorithm to correct the position and angle of the forms since
+some forms at the time of scanning may be scanned with an incorrect angle. Fig. 4 Demonstrates
+a form after applying the 4-point detection algorithm.
+
+Fig. 2. Kurdish handwritten letters empty form.
+
+3.4. Image Segmentation and Cropping
+Each form page was subjected to the cropping procedure after the pre-processing stage in
+order to crop each letter block. Each square around the letters and digits has been detected one
+by one from the ﬁrst row (left to right). Once all the squares from the ﬁrst row are detected,
+and then the program detects the ﬁrst square from the second row, this procedure will continue
+until detecting all the squares; this process was done via Python programming and edge detection algorithms, as demonstrated in Fig. 5. The template had different resolutions, and it has
+4 different forms, 1 form to collect the digits, which is divided into 10 rows and 10 columns,
+and 3 forms to collect the characters, 2 of them divided into 12 rows and 10 columns, and the
+last one divided into 11 rows and 10 columns because the number of Kurdish characters is 35.
+
+
+
+Fig. 3. Scanned page example for the K-PIT dataset.
+
+
+Fig. 4. Scanned page after applying the 4-point detection algorithm.
+
+100 distinct single-digit picture were created from a page with (146 × 146) pixels when the K
+ZHMARA dataset template was saved.
+When the templates of the K-PIT dataset were saved, totally generated 350 separate images,
+10 images of every single character (the ﬁrst form, which was labeled with 12 characters, generated 120 images; similarly, the second form generated 120 images, but the last form which
+labeled with 11 characters generate 110 images) from the page with the (146 × 146) pixels,
+the images after cropping, resizing, and the saving process is shown in Fig. 6. Then each line
+with a speciﬁc character/digit is saved in separate folders as a ﬁnal step and achieves better results with the machine and deep learning models, and all the cropped images are inversed and
+binarized, as illustrated in Fig. 7.
+Each letter or digit was cropped as a separate image during cropping and then saved in a
+separate folder with its own ID. The images have the same size within the entire dataset. Due
+to each digit and character being written 10 times by 700 writers, who each wrote once, there
+were 70 0 0 images produced for each digit and character.
+
+
+Fig. 5. A ﬁlled form with all squares around the characters detected by edge detection methods.
+
+3.5. Labeling and Organizing
+Labeling is the last step after pre-processing the dataset. Each image is labeled with an ID
+number, as shown in Table 3 and Table 4; the number of the folder in each dataset represents
+a single digit or character. For example, folder number 02 in the K-PIT dataset is the id of the
+letter, which in this case is Alef (‫)ا‬, and folder number 03 in the K-ZHMARA dataset is the id of
+the digit, which in this case is three (٣). Each digit and character was stored in a folder with its
+ID as the name of that folder, with each folder containing 60 0 0 images of that letter/digit for
+the training and 10 0 0 images for the testing.
+
+
+Fig. 6. The characters after cropping.
+
+Fig. 7. Result of inversing process.
+
+
+Table 3
+Letter IDs.
+
+Table 4
+Digit IDs.
+
+Ethics Statement
+After submitting this project to the Institutional Review Board (IRB) of “The University of
+Halabja.” They accepted this project by a reference protocol (1/8/205) on 1/10/2022.
+With the approval of the people who had taken part in the writing, all the handwriting was
+collected.
+
+Declaration of Competing Interest
+The authors declare that they have no known competing ﬁnancial interests or personal relationships which have, or could be perceived to have, inﬂuenced the work reported in this article.
+
+Data Availability
+A Vast Dataset for Kurdish Digits and Isolated Characters Recognition (Original data) (Mendeley Data).
+
+CRediT Author Statement Peshraw Ahmed Abdalla: Supervision, Data curation, Conceptualization, Software, Methodology, Visualization, Project administration, Funding acquisition, Writing – original draft, Writing – review & editing; Abdalbasit Mohammed Qadir: Validation, Writing – review & editing;
+
+
+Table 1: The table contains the article history of the paper, including the dates when the paper was received, revised, accepted, and available online. The last two rows of the table provide a link to the dataset used in the paper, which includes 70,000 images of Kurdish digits and 245,000 images of all Kurdish characters. The data was collected via a printed A4 paper with a grid of 10x10 boxes for data collection.
+
+
+Table 2: This table provides information about the data used in the K-PIT dataset. It includes details about the type of data, how it was acquired, the format of the data, the description of the data collection, the data source location, the data accessibility, and the data identification number. It also provides information about the subject pattern, the specific subject area, the type of data, and how the data was acquired. Additionally, it provides information about the deep learning and machine learning researchers who used the data, as well as the languages that can be used with similar scripts. Finally, it provides information about the datasets that can be used as a standard for usability and quality in subsequent works.
+
+
+Table 3: This table contains information about Optical Character Recognition (OCR) technology. It explains the obstacles that must be identified in order to use OCR, such as the need for a reliable dataset. It also explains that there has not been much research done on automated recognition of characters and digits, and the aim of this work is to prepare a dataset named K-PIT (for Kurdish characters) and K-ZHM (for Kurdish digits) to be used to build a model for handwriting optical recognition.
+
+
+Table 4: This table contains information about the Kurdish characters and digits that were collected from more than 1500 participants. The table includes the Kurdish characters, the number of images for each character, and the percentage of each character. The table also includes the machine alphabetic and handwritten alphabetic for each character.
