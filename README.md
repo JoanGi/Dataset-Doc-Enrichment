@@ -2,24 +2,25 @@
 
 ## What is it in this repository?
 
-This repository is anonmyzed to comply to the annonymization process of CKIM conference.
+This repository is anonymized to comply with the anonymization policies of the CKIM 2023 conference.
 
-In this repository you will find the results and the code to reproduce the experiments done in the submission titled: "Exploring the use of Language Models to Enhance Datasets Explainability via Documentation"
+In this repository, you will find the results and the code to reproduce the experiments of the submission titled: "Exploring the Use of Language Models to Enhance Datasets Explainability via Documentation."
 
-The results of the experiment can be found in the folder results, in the file ExperimentResults.xlsx. Inside the file you will find instruction and guides to understand the results.
+#### Checking the results 
+To check out the results of the experiment, please, go to the **ExperimentResults.xlsx.**  in the **"/results"** folder.
 
-To reproduce the results you can execute the notebokke "dataset_extraction.ipynb".
+You will find instructions and guides inside the file to help you follow and understand the results.
 
-To execute this file, you will need to have java and python 3 installed in your system. 
+#### Reproducing the results 
+To reproduce the results can execute the notebook **"dataset_extraction.ipynb"** to reproduce the results.
 
-Inside the notebook you will have to point to one of the dataset files (in .txt) present in the /souces folder.
+You must install Java and Python 3 in your system to execute this file.
 
-For instance: 
+Inside the notebook, you must point to one of the dataset files (in .txt) in the "/sources" folder. For instance: 
 ```documentPath = "sources/Nature-Scientific-Data/A whole-body FDG.txt" ```
 
-And to set up a output file name.
+And to set up an output file name.
 
-Once all the cells of the notebook are executed, a output file with the results will be stored and the root of the project. 
+Once all the notebook cells are executed, an output file with the results will be stored at the project's root.
 
-To reproduce the procediments done by the authors during the evaluation, we can paste the results to the file /results/Sample-results-sheet.xlsx in the sheet "Results-raw". Then, the results can bee seen formated as the provided results in the sheet of the same file "Results-formatted".
-
+To reproduce the steps done by the authors during the evaluation, you can paste the results to the file /results/Sample-results-sheet.xlsx in the sheet "Results-raw." Then, the results can be seen as the provided results in the same file "Results-formatted" sheet.
