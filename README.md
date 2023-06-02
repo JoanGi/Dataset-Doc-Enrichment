@@ -18,6 +18,8 @@ To reproduce the results users can execute the notebook **"dataset_extraction.ip
 
 Users must install Java and Python 3 in their system to execute this file.
 
+Note that users will need a OpenAI APIKEY to reproduce results using GPT3.5, and a HuggingFace APIKEY to reproduce the results using FLAN-UL2
+
 Inside the notebook, users must point to one of the dataset files (in .txt) in the “/sources” folder. For instance: 
 ```documentPath = "sources/Nature-Scientific-Data/A whole-body FDG.txt" ```
 
