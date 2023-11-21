@@ -1,4 +1,4 @@
-# Experiment results of "Exploring the use of Language Models to Enhance Datasets Explainability via Documentation"
+# Experiment results and replication package of the paper "Using Large Language Models to Enrich the Documentation of Datasets for Machine Learning"
 
 ## What is it in this repository?
 
