@@ -2,8 +2,6 @@
 
 ## What is it in this repository?
 
-This repository is anonymized to comply with the anonymization policies of the CIKM 2023 conference.
-
 In this repository  readers will find the results and the code to reproduce the experiments of the submission titled: "Exploring the Use of Language Models to Enhance Datasets Explainability via Documentation."
 
 ### Checking the results 
