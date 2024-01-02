@@ -1,0 +1,976 @@
+﻿data_paper_DOI;data_paper_title;dimension;sub-dimension;sub-dimension-requirements;ground_truth
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;Uses;Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";This paper introduces a new mosquito images dataset that is suitable for training and evaluating a recognition system on mosquitoes in normal or smashed conditions. The images dataset served mainly for the development a machine learning model that can recognize the mosquito in the public community, which commonly found in the smashed/damaged form by human
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;Uses;Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;"The dataset is recommended to build a MD model to recognize mosquitoes in the public community, specially in the smashed/damaged condition.
+It is not recommended it usage in the case of skin tones of American, African, European, and Australian people"
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;Uses;Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";"A pilot test on the dataset has been carried out to validate the quality
+of the dataset in terms of the feasibility of deep convolutional neural networks (DCNN) model construction at three learning rates (0.01-0.0001)"
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;S.Q.O. compiled the data, created the first dataset version, and wrote the first version of the manuscript
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;The work was partly supported by Ministry of Higher Education Fundamental Research Grant Scheme (FRGS) (FRGS/1/2021/STG03/KDUPG/02/1
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;No explicit information is given about the maintainer, and the dataset policies
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Distribution: 
+How the dataset is distributed";Data accesability;The link where the data can be accesed if its online and open, or the place where the data can be demanded;https://data.mendeley.com/datasets/zw4p9kj6nt/2
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";"The dataset is publicly available in
+Mendeley Data. The paper does not specify a specific license for the dataset. The paper is licensed under CC BY 4.0."
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;Not specified
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Distribution: 
+How the dataset is distributed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;"The image dataset consists of six root files which are raw image data of three mosquito species with two conditions,
+respectively, and one data pre-processed file that could serve as an authenticated dataset in recognise
+three of the mosquitoes, and subsequently applied by potential user such as machine learning engineer, apps
+developer, data scientist, etc."
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Distribution: 
+How the dataset is distributed";Data splits;Is there any recommended data split of the data?;No recommendation is explicitly given, but a 85-15 ratio has been used for training-testing.
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Distribution: 
+How the dataset is distributed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;No important statistics or consistency rules are specified.
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;the mosquitoes were bred and grew to adult stage, 4–5 days old in a fully control laboratory, Vector Control Research Unit, Universiti Sains Malaysia, which is accredited by WHO for insecticides susceptibility test5. The data collection process was illustrated in Fig. 1. The mosquito obtained from the mosquito breeding was transferred by a Polyethylene terephthalate (PET) container (diameter 12 cm, height 6 cm, Fig. 2a) to the net cage for image acquisition. The container and camera were placed in the cage for 30 minutes to allow the mosquito to adapt to the environment before images acquisition. The images were acquired by a digital single-lens reflex (DSLR) camera (Canon 7D, 18MP APS-C CMOS sensor, ISO 3200, auto white balance) with Tamron SP AF 90 mm f/2.8 Di Macro Lens. The images acquisition was performed on 4- to 5-day-old females’ adult in a netted cage with 34 W white light illumination on top of the cage. The volunteer consists of three ethnicities – Malay, Chinese and India, which aim to reflect the diversity of human skin tone. The volunteer’s palm is rest in the cage and different angles of the landed mosquitos’ images were acquired. Smashed mosquitoes were generated by smashing the mosquito randomly by a human palm in a non-feeding, partial, or fully repletion situation (Fig. 2b). The images were saved in JPEG format in the folders according to their classes. Images were later resized from original dimension into 224 × 224 pixels, to lower the file size of the images.
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Physical data collection
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;No specific information about the team is specified
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;The volunteer consists of three ethnicities – Malay, Chinese and India, which aim to reflect the diversity of human skin tone.
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;The images were acquired by a digital single-lens reflex (DSLR) camera (Canon 7D, 18MP APS-C CMOS sensor, ISO 3200, auto white balance) with Tamron SP AF 90 mm f/2.8 Di Macro Lens, at Vector Control Research Unit, Universiti Sains Malaysia
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;Vector Control Research Unit, Universiti Sains Malaysia. No information about dates is provided
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;The source of mosquito adults is the pure bred of the susceptible strain of Ae. aegypti, Ae. albopictus and Cx quinquefasciatus from Vector Control Research Unit (VCRU), Universiti Sains Malaysia. The mosquitoes were cultured in insectarium for more than 20 years and used for the WHO insecticides susceptibility test9,10. Furthermore, before and after the image acquisition, the taxonomy of the mosquito were validated by two medical entomologist
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;Image and video annotations
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;The data was annotated from prior knowledge, since the mosquitoes breeds were cultured in insectarium for more than 20 years. The taxonomy of the mosquito were validated by two medical entomologist before and after the image acquisition.
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;Not mentioned
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;The taxonomy of the mosquito were validated by two medical entomologist before and after the image acquisition.
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;The volunteers that participated in this dataset were Asian, and therefore is not covering the skin tone background of American, African, European, and Australian
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;Lack of human skin tone diversity. The volunteers that participated in this dataset were Asian, and therefore is not covering the skin tone background of American, African, European, and Australian
+https://doi.org/10.1038/s41597-022-01541-w;An annotated image dataset for training mosquito species recognition system on human skin;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;No privacy issues are mentioned. An ethics statement is made.
+https://doi.org/10.1038/s41597-022-01718-3;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Uses: 
+The desing pruposes and uses of the dataset";Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";The purpose is to provide an annotated, publicly available dataset of PET/CT images that enables technical and clinical research in the area of machine learning-based analysis of PET/CT studies and to demonstrate a use case of deep learning-based automated segmentation of tumor lesions
+https://doi.org/10.1038/s41597-022-01718-4;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;"The provided data can be used by researchers of different backgrounds for the development and evaluation of machine learning methods for PET/CT analysis as well as for clinical research regarding the included tumor entities.
+Non-recommended uses are not specified."
+https://doi.org/10.1038/s41597-022-01718-5;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";The dataset has been tested with a deep learning model for automated PET lesion segmentation (uuNet).
+https://doi.org/10.1038/s41597-022-01718-6;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;Sergios Gatidis, Daniel Rubin, Thomas Küstner, Tobias Hepp
+https://doi.org/10.1038/s41597-022-01718-7;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;The research has been funded by the Stanford University, the University of Tübingen,  the Germany’s Excellence Strategy–EXC-Number 2064/1–390727645 and EXC 2180/1-390900677 and the DEAL Project.
+https://doi.org/10.1038/s41597-022-01718-8;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;Not specified
+https://doi.org/10.1038/s41597-022-01718-9;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Distribution: 
+How the dataset is distributed";Data repository links;The link where the data can be accesed if its online and open, or the place where the data can be demanded;"The data presented in this manuscript is part of the MICCAI autoPET challenge 2022 (https://autopet.
+grand-challenge.org/)."
+https://doi.org/10.1038/s41597-022-01718-10;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";The licenses are not specified in the paper
+https://doi.org/10.1038/s41597-022-01718-11;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;Not specified.
+https://doi.org/10.1038/s41597-022-01718-12;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;Fig. 2 provides information about the folder and files structure. Using pytonh scripts, new files and formats can be generated. The dataset if composed of DICOM images and CSV files with metadata. The fileds of the CSV files are (informally) described.
+https://doi.org/10.1038/s41597-022-01718-13;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;Not specified
+https://doi.org/10.1038/s41597-022-01718-14;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;"No consistency rules are provided.
+Some statistics are given in Fig. 2 (mean age per diagnosis and age, std. dev.). Also, in the ""Data properties"" Section some absolute numbers are given: Of the 1014 studies (900 unique patients) included in this dataset, one study was included of 819 patients, two studies were included of 59 patients, 3 studies of 14 patients, 4 studies of 4 patients and 5 studies of 3 patients."
+https://doi.org/10.1038/s41597-022-01718-15;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;Publication of anonymized data was approved by the institutional ethics committee of the Medical Faculty of the University of Tübingen as well as the institutional data security and privacy review board. Data from 1,014 whole-body FDG-PET/CT examinations of 900 patients acquired between 2014 and 2018 as part of a prospective registry study9 were included in this dataset
+https://doi.org/10.1038/s41597-022-01718-16;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Medical data
+https://doi.org/10.1038/s41597-022-01718-17;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;"Sergios Gatidis, Daniel Rubin, Thomas Küstner, Tobias Hepp (probably).
+No demographics are given"
+https://doi.org/10.1038/s41597-022-01718-18;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;Mean ages are provided in Fig. 2. Regarding positives and negatives: The selection criteria for positive samples were: age >18 years, histologically confirmed diagnosis of lung cancer, lymphoma or malignant melanoma, and presence of at least one FDG-avid tumor lesion according to the final clinical report. The selection criteria for negative samples were: age >18 years, no detectable FDG-avid tumor lesion according to the clinical radiology report.
+https://doi.org/10.1038/s41597-022-01718-19;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;Clinical scanner (Siemens Biograph mCT, Siemens Healthineers, Knoxville, USA)
+https://doi.org/10.1038/s41597-022-01718-20;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;University Hospital Tübingen between 2014 and 2018
+https://doi.org/10.1038/s41597-022-01718-21;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;All examinations were assessed by a radiologist and nuclear medicine specialist in a clinical setting. Based on the report of this clinical assessment, all FDG-avid tumor lesions were segmented by an experienced radiologist using dedicated software.
+https://doi.org/10.1038/s41597-022-01718-22;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;
+https://doi.org/10.1038/s41597-022-01718-23;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Annotation: 
+How data has been annotated";Type;;
+https://doi.org/10.1038/s41597-022-01718-24;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;
+https://doi.org/10.1038/s41597-022-01718-25;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;
+https://doi.org/10.1038/s41597-022-01718-26;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;In case of uncertainty regarding lesion definition, the specific PET/CT studies were reviewed in consensus with the radiologist and nuclear medicine physician who prepared the initial clinical report. To this end CT and corresponding PET volumes were displayed side by side or as an overlay and tumor lesions showing elevated FDG-uptake (visually above blood-pool levels) were segmented in a slice-per-slice manner resulting in 3D binary segmentation masks
+https://doi.org/10.1038/s41597-022-01718-27;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;To facilitate data usage, Python scripts that allow conversion of DICOM data to other medical image formats (NIfTI and mha) as well as the hdf5 format are provided.
+https://doi.org/10.1038/s41597-022-01718-28;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;Others
+https://doi.org/10.1038/s41597-022-01718-29;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;Not specified
+https://doi.org/10.1038/s41597-022-01718-30;A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;Data has been anonymized. The process was approved by the institutional ethics committee of the Medical Faculty of the University of Tübingen as well as the institutional data security and privacy review board.
+https://doi.org/10.1038/s41597-022-01855-9;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Uses: 
+The desing pruposes and uses of the dataset";Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";There is an emotion recognition gap for Quechua speakers. The dataset aims aim to fill this gap by creating a speech corpus of Quechua Collao for automatic emotion recognition, evaluating its usefulness using machine learning techniques and deep neural. The emotion recognition uses the dimensional approach, based on valence, arousal, and dominance.
+https://doi.org/10.1038/s41597-022-01855-10;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;The goal is to provide a corpus of Quechua Collao for for automatic emotion recognition. It is not recommended for other variants of Quechua.
+https://doi.org/10.1038/s41597-022-01855-11;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";The machine learning (ML) methods used are Support Vector Regression (SVR), K-neighbors Regression (KNR), and Random Forest Regression (RFR). They were implemented using Scikit-Learn40. The neural network models used are Multilayer Perceptron (MLP), Long Short-Term Memory (LSTM) network, and Convolutional Neural Network (CNN).
+https://doi.org/10.1038/s41597-022-01855-12;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;J.E.C., R.Y.G.P.Y. and C.A.H.A. designed the script, designed, prepared, and conducted the data collection, pre-processed and constructed the corpus38, designed, and conducted the technical validation, and wrote the manuscript.
+https://doi.org/10.1038/s41597-022-01855-13;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;The research was carried out as part of the Kusisqa project, whose funder is Proyecto Concytec - Banco Mundial, Mejoramiento y Ampliación de los Servicios del Sistema Nacional de Ciencia, Tecnología e Innovación Tecnológica with grant reference number Contract N° 014-2019-FONDECYT-BM-INC.INV. The authors acknowledge the contribution of the School of Computer Science, UNSA, for allowing us to use its facilities for recording sessions and for granting financial support.
+https://doi.org/10.1038/s41597-022-01855-14;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;No information about contributing guidelines, update policies, etc. Is given.
+https://doi.org/10.1038/s41597-022-01855-15;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Distribution: 
+How the dataset is distributed";Data repository links;The link where the data can be accesed if its online and open, or the place where the data can be demanded;The corpus is available in Figshare (https://doi.org/10.6084/m9.figshare.20292516). Code and data splits in Github (https://github.com/qccData/qccCorpus)
+https://doi.org/10.1038/s41597-022-01855-16;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";There is no explicit information about the license (in the references it can be seen that the corpus is CC BY and the code and data splits are GPL)
+https://doi.org/10.1038/s41597-022-01855-17;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;Not specified
+https://doi.org/10.1038/s41597-022-01855-18;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Distribution: 
+How the dataset is distributed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;"The corpus38 can be downloaded as a zip file that contains 4 directories. All audio segments in WAV format
+are found in the Audios folder; each audio is randomly named by numbers ranging from 10001 to 22420. This
+action was carried out to avoid bias. Detailed information of each audio is found in a file inside the Data folder,
+in a file named Data.csv. This file is made up of five columns, where:
+• The Audio column contains the name of the WAV files.
+• The Emotion column represents the categorical emotion of the audio segment.
+• The Actor column contains the code of the actor who performed and interpreted the audio segment. The code
+comprises an a and a number from 1 to 6 representing the six actors (example: a2).
+• The File column contains the original name of each audio segment, this name is divided into two segments by
+an underscore: The first represents the code of the actor, and the second segment is composed of a letter and
+a number; the letter represents the emotion (H = Happy, T = Sad, B = Bored, F = Fear, S = Sleepy, C = Calm,
+E = Excited, A = Angry, and N = Neutral) and the number represents the position of the audio segment. For example, the name a2_B159.wav indicates that the segment belongs to actor 2 (a2), that it belongs to the emotion
+bored (B), and that it is the 159th segment in this set.
+• Duration (s) column indicates the duration in seconds of each audio segment.
+The annotations for each audio segment are found in the Labels folder, and the emotional dimensions of
+valence are found in the Valence.csv file, which is made up of 5 columns: the first contains the name of the audio
+segment, and the other four store the label made by each annotator. For example, the second column contains
+the labels made by annotator 1, represented by the code N1. The values for the emotional dimension of arousal
+and the emotional dimension of dominance are found in the files Arousal.csv and Dominance.csv, respectively,
+and have the same structure as the Valence.csv file.
+The general average of each emotional dimension is found in the Labels.csv file, also within the Labels folder,
+where the first column represents the name of the audio segment, the second, third, and fourth columns contain
+the average of the labels made by the four annotators of the dimensions emotional valence, arousal, and dominance
+respectively.
+Finally, the Script folder contains Script.xlsx, which is the script used for the corpus38 creation. This file
+comprises 9 sheets for the 9 categorical emotions used. Each word and sentence has an ID that employs the same
+notation as that of the File column of Data.xlsx, explained previously, without considering the actor prefix. For
+example, T159 is an ID that corresponds to the 159th sentence of the Sad emotion."
+https://doi.org/10.1038/s41597-022-01855-19;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Distribution: 
+How the dataset is distributed";Data splits;Is there any recommended data split of the data?;No explicit recommendation is made, but the paper mentions that data is split in three sets: 60% for training, 20% for validation, and 20% for testing
+https://doi.org/10.1038/s41597-022-01855-20;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Distribution: 
+How the dataset is distributed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;No specific consistency rules or constrainst are provided. Histograms for each dimensional attribute in the Quechua Collao corpus are provided in Fig. 3.
+https://doi.org/10.1038/s41597-022-01855-21;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;"Script creation. Our script comprises 378 words and 1692 sentences, making a total of 2070 instances. These
+were extracted from different texts written in Quechua Collao, while most of them include a Spanish translation22–
+36. The complete script is divided into nine parts, each consisting of 42 words and 188 sentences. These
+parts correspond to 9 categorical emotions: happy, sad, bored, fear, sleepy, calm, excited, angry, and neutral. Most
+words and sentences were chosen according to the emotions that were used. For example, the sentence “Sumaqmi
+ñawiyki”, which means “your eyes are pretty”, was selected to represent happy emotion.
+The script construction was done in five phases. In the first phase, all the documents from which all the
+words and sentences were extracted were investigated. The second phase was carried out by three people who
+built the script. These first two phases were carried out by people who speak Spanish natively but do not speak
+any variant of Quechua. In the third phase, an expert in the Quechua Collao language reviewed and corrected
+the entire script and provided other sources to replace some sentences per emotion. The fourth phase consisted
+of selecting these new sentences and replacing some old ones. Finally, the fifth phase was accomplished by a
+second Quechua language expert, who translated sentences from Spanish into Quechua Collao and made corrections
+to the entire script.
+Recording sessions. The recording sessions were performed with semi-professional microphones and at
+semi noiseless spaces at the School of Computer Science - UNSA. The actors were mostly mid-age native Quechua
+speakers that were paid to record. The whole script (2070 instances) was planned to be recorded by each actor
+of a group of three women and three men in order to have balanced data in terms of gender. However, an actress
+(Actress 5) could not finish due to unexpected situations, so her work was completed by another actress (Actress 7).
+Table 1 shows information related to actors.
+A session consists of one emotion’s recording per actor (230 instances). Previous to the recording, the actors
+were given the scripts and asked to rehearse with the linguist expert. In each session, the actor/actress is asked to
+read the script while interpreting the target emotion, and its interpretation is evaluated. If the evaluator decides
+the performance or pronunciation is inadequate, then the recording of the instance is repeated, asking the actor/
+actress to remember situations in the past or giving them hypothetical situations so emotions can be elicited. To
+avoid performance fatigue, each session was divided into five groups of 46 instances, and after recording each
+group, a pause of around 5 minutes was done.
+The audios were recorded using one of the following microphones: Emita USB Studio Microphone GXT 252
+and Blue Snowball USB Microphone. The software used to record was Audacity, with a sample rate 44KHz and
+one recording channel (mono). The scene setup for recordings is shown in Fig. 1."
+https://doi.org/10.1038/s41597-022-01855-22;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Audio or video recording
+https://doi.org/10.1038/s41597-022-01855-23;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;"J.E.C., R.Y.G.P.Y. and C.A.H.A. designed the script,
+designed, prepared, and conducted the data collection. No demographics information is given."
+https://doi.org/10.1038/s41597-022-01855-24;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;"The actors were mostly mid-age native Quechua
+speakers that were paid to record. The whole script (2070 instances) was planned to be recorded by each actor
+of a group of three women and three men in order to have balanced data in terms of gender. However, an actress
+(Actress 5) could not finish due to unexpected situations, so her work was completed by another actress (Actress 7).
+Table 1 shows information related to actors"
+https://doi.org/10.1038/s41597-022-01855-25;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;"The audios were recorded using one of the following microphones: Emita USB Studio Microphone GXT 252
+and Blue Snowball USB Microphone. The software used to record was Audacity, with a sample rate 44KHz and
+one recording channel (mono). The scene setup for recordings is shown in Fig. 1."
+https://doi.org/10.1038/s41597-022-01855-26;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;"The recording sessions were performed with semi-professional microphones and at
+semi noiseless spaces at the School of Computer Science - UNSA. No information about the specific dates is given."
+https://doi.org/10.1038/s41597-022-01855-27;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;"Two men and two women were employed and paid to annotate the audio labels. They are
+Quechua Collao native speakers and Quechua instructors, ages ranging from 27 to 46. Each annotator labeled the 12420 audios over a 4-week period by assigning valence, arousal, and dominance
+values. Each week, 3105 audios were released to be annotated. It must be noted that we only considered five days
+a week dedicated to annotation. A methodology was recommended to ensure the annotation quality, suggesting
+about 6 hours a day to annotate, preferably in two 3-hour groups, while taking a 10-minute pause after 1.5 hours.
+During the last week, one of the female annotators had to be replaced by another female Quechua instructor due
+to some external inconveniences.
+The annotation process was performed using a sheet for each annotator, where they had to write the valence,
+arousal, and dominance values for each audio. A scale of 1 to 5 was used, and visual aid was provided using
+self-assessment manikins (SAMs)37. Figure 2 shows an example of the sheets used for annotation, where the first
+column shows the audio filename, and the last three columns correspond to valence, arousal, and dominance.
+In the header, 5 SAMs are shown for each emotional dimension, with a brief description in Spanish: Negative -
+Positive for valence, Very calm - Very excited for arousal, and Submissive - Dominant for dominance."
+https://doi.org/10.1038/s41597-022-01855-28;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;Content and textual categorization
+https://doi.org/10.1038/s41597-022-01855-29;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;The lavels are the level of emotional valence, arousal, and dominance dimensions
+https://doi.org/10.1038/s41597-022-01855-30;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;"Two men and two women were employed and paid to annotate the audio labels. They are
+Quechua Collao native speakers and Quechua instructors, ages ranging from 27 to 46"
+https://doi.org/10.1038/s41597-022-01855-31;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;The annotation process was manually done, using a sheet for each annotator, where they had to write the valence, arousal, and dominance values for each audio. 
+https://doi.org/10.1038/s41597-022-01855-32;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;No specific validation was done on the annotations.
+https://doi.org/10.1038/s41597-022-01855-33;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;No biases are specified (although it sais that the filenames are randomized to avoid biases WHILE ANNOTATING).
+https://doi.org/10.1038/s41597-022-01855-34;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;The corpus is built over the variant Collao of Quechua. Thus, this variant has noticeable differences from other variants and should not be used to generalize Quechua. The main limitation is the emotional imbalance of the corpus38, which can lead to low performance in SER algorithms for labels of instances with low frequency. Furthermore, we must note that the recordings are performed in a controlled environment with only six mid-age speakers acting established emotions. Therefore, given these limitations, the recordings provide prototypical insights for studying emotions but they cannot fully represent the emotional expressions of all Quechua speakers that are observed in real life.
+https://doi.org/10.1038/s41597-022-01855-35;A speech corpus of Quechua Collao for automatic dimensional emotion recognition;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;Individual written informed consent was obtained from all participants involved in the study, where the actors and actresses were informed that their voices would be freely shared anonymously.
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Uses: 
+The desing pruposes and uses of the dataset";Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";"Purposes: The purpose of the dataset is to support new machine learning challenges.
+
+To explore de ""ugly ducliong sing""
+
+Gaps: This dataset inteds to fill prior skin image datasets have not addressed patient-level information obtained from multiple skin lesions from the same patient. 
+
+"
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;"The dataset is designed to improve translational potential of algorithms, especially to help clinicians without access to tertiary referral centers assess high risk patients with multiple atypical nevi.
+
+There is an aware as the data is not representative"
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";No
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;Veronica Rotemberg  , Nicholas Kurtansky, Brigid Betz-Stablein, Liam Caffery, Emmanouil Chousakos , Noel Codella, Marc Combalia, Stephen Dusza, Pascale Guitera, David Gutman, Allan Halpern, Brian Helba, Harald Kittler, Kivanc Kose , Steve Langer, Konstantinos Lioprys, Josep Malvehy, Shenara Musthaq,
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;The dataset provided by The University of Queensland in Brisbane was funded by the National Health and Medical Research Council (NHMRC) – Centre of Research Excellence Scheme (APP 1099021). HPS holds an NHMRC MRFF Next Generation Clinical Researchers Program Practitioner Fellowship (APP1137127). Other funding sources include the Melanoma Research Alliance Young Investigator Award 614197. This research was funded in part through the NIH/NCI Cancer Center Support Grant P30 CA008748.
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Distribution: 
+How the dataset is distributed";Data accesability;The link where the data can be accesed if its online and open, or the place where the data can be demanded;"Is permanently accessible to the public through the ISIC Archive12 at
+this https://doi.org/10.34970/2020-ds01."
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";Dataset under CC 4.0
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;Not mentioned
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;Is provided in 2 formats, in DICOM format and in JPEG and CSV format.
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;no
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;In Table 1
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;Collected, from 5 health center, using scanners
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Sensors and Manual Human Curators
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;Internal team and external team
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;Not provided
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;5 hospitals, a great description of each hospital is provided
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;The localization of each of 5 hospitals
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;The data has been annotated bydermoscopry, ussing Tagger
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;Image annotation
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;Dermoscopy exeprts, of type internal with no demograhipcs
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;Tagger
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;"The ground truth labels for all malignant lesions in the dataset were confirmed via retrospective review of histopathology
+reports, and diagnosis plausibility was visually confirmed by visual confirmation of a dermoscopy expert.
+Histopathology reports were double checked if the label was suspicious. Melanoma in situ and invasive melanoma
+were both coded as melanoma. All other qualifying images were coded as benign, including those diagnosed as
+severely dysplastic nevi"
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;Low prevalnce of specific population groups
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;Tends to under-represent darker skin types
+https://doi.org/10.1038/s41597-021-00815-z;A patient-centric dataset of images and metadata for identifying melanomas using clinical context;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;No
+https://doi.org/10.1038/s41597-021-00865-3;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Uses: 
+The desing pruposes and uses of the dataset";Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";"The dataset is designed  for training NLP apporaches to help identifying potential patients at scale clinical trials. Is an human-annotated corpus of over 1,000 clinical trial
+eligibility criteria descriptions using highly granular structured labels capturing a range of biomedical phenomena.
+
+Tries to fill the gap of past corpora that  covers only a modest number of eligibility criteria, are narrowly focused on certain diseases only, are not publicly available
+or have annotations insufficiently granular to fully capture the diverse, nuanced semantics of eligibility criteria."
+https://doi.org/10.1038/s41597-021-00865-4;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;To train NLP methods for query generation form clinical trials
+https://doi.org/10.1038/s41597-021-00865-5;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";Has been testes with biLSTMçCRF, PubMedBERT, and SciBERT
+https://doi.org/10.1038/s41597-021-00865-6;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;0
+https://doi.org/10.1038/s41597-021-00865-7;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;The National Library of Medicine: R15LM013209, and the Nactiona Center for Advancing Translational Sciences of National Institues of Health: UL1TR002319
+https://doi.org/10.1038/s41597-021-00865-8;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;Not mentioned explicitily
+https://doi.org/10.1038/s41597-021-00865-9;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Distribution: 
+How the dataset is distributed";Data repository links;The link where the data can be accesed if its online and open, or the place where the data can be demanded;Link of figshare
+https://doi.org/10.1038/s41597-021-00865-10;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";CC4.0, no mention of third parties, attribution notices etc..
+https://doi.org/10.1038/s41597-021-00865-11;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;No mention
+https://doi.org/10.1038/s41597-021-00865-12;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;"The Brat format includes
+two file types, “.txt” files and “.ann” files. 
+
+The annotation files used by Brat for tracking annotated spans of text and relations.
+Each.ann file corresponds to a.txt file of the same name. Each row of a.ann file may begin with a “T” (for an entity)
+or “R” (for a relation), followed by an incremental number for uniquely identifying the entity or relation (e.g.,
+“T15”). “T” rows are of the form “T<number> <entity type> <start character index> <stop character index>”,
+where start and stop indices correspond to text in the associated.txt file. “R” rows are of the form “R<number>
+<relation type> Arg1: <ID>Arg2: <ID>”, where ID values correspond to identifiers of entities. Additionally,
+for ease of annotation certain LCT relations are defined as arguments of Brat “events”, identified by “E”. “E” rows
+are of the form “E<number> <entity type>: <ID> <relation type>: <ID>”."
+https://doi.org/10.1038/s41597-021-00865-13;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;No mention
+https://doi.org/10.1038/s41597-021-00865-14;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;No mention
+https://doi.org/10.1038/s41597-021-00865-15;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;
+https://doi.org/10.1038/s41597-021-00865-16;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Web Scraping
+https://doi.org/10.1038/s41597-021-00865-17;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;Collectors wher the authors, an intenral team, no demographics
+https://doi.org/10.1038/s41597-021-00865-18;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;Yes, but no demographic pvoided
+https://doi.org/10.1038/s41597-021-00865-19;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;"We used eligibility criteria from https://clinicaltrials.gov as the basis for our corpus.
+We extracted 1,020 randomly selected clinical trials eligibility descriptions, 20 for training and
+inter-annotator comparison and 1,000 for post-training annotation."
+https://doi.org/10.1038/s41597-021-00865-20;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;Not provided
+https://doi.org/10.1038/s41597-021-00865-21;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;"Annotation was performed by two annotators,
+the first a biomedical informatician and the second a computer scientist. For initial annotation training, 20
+documents were distributed to both annotators. Annotation was done in the following steps: "
+https://doi.org/10.1038/s41597-021-00865-22;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;Entity Annotation
+https://doi.org/10.1038/s41597-021-00865-23;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;
+https://doi.org/10.1038/s41597-021-00865-24;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;Two annotates, (the authors), biomedical informatician and a computer scientist
+https://doi.org/10.1038/s41597-021-00865-25;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;BRAT annotation tool
+https://doi.org/10.1038/s41597-021-00865-26;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;Inter-annotation agreement
+https://doi.org/10.1038/s41597-021-00865-27;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;Not mention
+https://doi.org/10.1038/s41597-021-00865-28;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;Not mention
+https://doi.org/10.1038/s41597-021-00865-29;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Social Concerns: 
+Explicit warning regarding the data. ";Sensitivity of the data;The presensce of information that can hurt the sensitivity of any social group;No
+https://doi.org/10.1038/s41597-021-00865-30;The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;Not mention
+https://doi.org/10.1016/j.dib.2022.108870;An annotated dataset for event-based surveillance of antimicrobial resistance;"Uses: 
+The desing pruposes and uses of the dataset";Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";"The purpose of the dataset are to contribute as an NLP resource in the AMR surveillance and epidemic intelligence
+
+To provide unofficial and unstrcutured data from new articles and social meida to complement official inforation about AMR
+
+Text-classification, classification"
+https://doi.org/10.1016/j.dib.2022.108871;An annotated dataset for event-based surveillance of antimicrobial resistance;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;"Can be used for evaluation or trainig purposes for classification tasks. 
+It is useful to detect information across the One Health domain, and interaction between domains."
+https://doi.org/10.1016/j.dib.2022.108872;An annotated dataset for event-based surveillance of antimicrobial resistance;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";"Has been used in a text-classification publicly available online. For each corpus through generic state-of-the-art NLP techniques in five steps.
+
+For thematic classification and Host, Precision, Recall and F-measure is provided, using different retrieval algoritms: TF-IDF, Doc2Vec, and both"
+https://doi.org/10.1016/j.dib.2022.108873;An annotated dataset for event-based surveillance of antimicrobial resistance;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;Nejat Arınıka, Wim Van Bortel, Bahdja Boudouaa,, Luca Busani. Rémy Decoupes, Roberto Interdonato, Rodrique Kafandoa, Esther van Kleeff, Mathieu Roche, Mehtab Alam Syed, Maguelonne Teisseirea
+https://doi.org/10.1016/j.dib.2022.108874;An annotated dataset for event-based surveillance of antimicrobial resistance;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;This study was partially funded by EU grant 874850 MOOD and is catalogued as MOOD052.
+https://doi.org/10.1016/j.dib.2022.108875;An annotated dataset for event-based surveillance of antimicrobial resistance;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;not provided
+https://doi.org/10.1016/j.dib.2022.108876;An annotated dataset for event-based surveillance of antimicrobial resistance;"Distribution: 
+How the dataset is distributed";Data accesability;The link where the data can be accesed if its online and open, or the place where the data can be demanded;Direct URL to data: https://doi.org/10.57745/MPNSPH
+https://doi.org/10.1016/j.dib.2022.108877;An annotated dataset for event-based surveillance of antimicrobial resistance;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";Not provided, the article is under CC BY-NC-ND license
+https://doi.org/10.1016/j.dib.2022.108878;An annotated dataset for event-based surveillance of antimicrobial resistance;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;Not provided
+https://doi.org/10.1016/j.dib.2022.108879;An annotated dataset for event-based surveillance of antimicrobial resistance;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;"We have two corpora, where D2 is a subset of D1 only containing concers about New Informationad General Information data from D1. The files are as follows, wher D1 is corpora 1, D2 corpora 2. ProMED, PADI and Healtmap and MediSys are the EBS-systems where the data has been extracted.
+
+D1.1-ProMED_url_thematic_classification.csv
+• D1.2-PADI-web_thematic_classification.csv
+• D1.3-HealthMap_url_thematic_classification.csv
+• D1.4-MedISys_url_thematic_classification.csv
+• D2.1-ProMED_url_host_classification.csv
+• D2.2-PADI-web_host_classification.csv
+• D2.3-HealthMap_url_host_classification.csv
+• D2.4-MedISys_url_host_classification.csv"
+https://doi.org/10.1016/j.dib.2022.108880;An annotated dataset for event-based surveillance of antimicrobial resistance;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;Mention a split, but is for the experiment and not the recommended
+https://doi.org/10.1016/j.dib.2022.108881;An annotated dataset for event-based surveillance of antimicrobial resistance;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;Statitics are provided in Table 1.
+https://doi.org/10.1016/j.dib.2022.108882;An annotated dataset for event-based surveillance of antimicrobial resistance;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;"The corpus dataset was curated and mined by the TETIS team from four EBS-systems:
+ProMED, PADI-web, HealthMap and MedISys."
+https://doi.org/10.1016/j.dib.2022.108883;An annotated dataset for event-based surveillance of antimicrobial resistance;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Manual Human Curation, Web Scrapping
+https://doi.org/10.1016/j.dib.2022.108884;An annotated dataset for event-based surveillance of antimicrobial resistance;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;Internal
+https://doi.org/10.1016/j.dib.2022.108885;An annotated dataset for event-based surveillance of antimicrobial resistance;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;No
+https://doi.org/10.1016/j.dib.2022.108886;An annotated dataset for event-based surveillance of antimicrobial resistance;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;"The sources are four EBS-systems: ProMED, PADI-web, HealthMap and MedISys.
+
+HealthMap: It is operating since 2006. It is an automated and curated aggregator of a broad range of data sources, such as Twitter, Google News, Baidu and SoSo news aggregators and ProMED in nine languages.
+
+ProMED: It is a program of the International Society for Infectious Diseases (ISID) [5]. It was launched in 1994 as an Internet service to identify unusual health events related to emerging and re-emerging infectious diseases and toxins affecting humans, animals and plants.
+
+MedISys: It is an EBS system developed by the European Commission Directorate General for Health and Consumers (DG SANCO) and the Joint Research Centre (JRC) of the European Commission.
+
+PADI-web: It is operating since 2016. It is an automated EBS tool that monitors the Google News aggregator in sixteen languages.
+
+"
+https://doi.org/10.1016/j.dib.2022.108887;An annotated dataset for event-based surveillance of antimicrobial resistance;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;Not provided
+https://doi.org/10.1016/j.dib.2022.108888;An annotated dataset for event-based surveillance of antimicrobial resistance;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;"The four sub-datasets from the respective EBS sources were manually annotated according to three main classes (New Information, General
+Information, Not Relevant). Data observation labeled as New Information or General Information were subsequently annotated according to a host classification system referring to host and/or
+transmission reservoirs (e.g. Humans, animals, Environment, etc). An annotation guideline was provided to facilitate a unified manual annotation across three annotators (AMR experts)."
+https://doi.org/10.1016/j.dib.2022.108889;An annotated dataset for event-based surveillance of antimicrobial resistance;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;Entity annotation
+https://doi.org/10.1016/j.dib.2022.108890;An annotated dataset for event-based surveillance of antimicrobial resistance;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;New information, General information, Not relevant
+https://doi.org/10.1016/j.dib.2022.108891;An annotated dataset for event-based surveillance of antimicrobial resistance;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;3 AMR experts
+https://doi.org/10.1016/j.dib.2022.108892;An annotated dataset for event-based surveillance of antimicrobial resistance;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;Annotation Guidelines
+https://doi.org/10.1016/j.dib.2022.108893;An annotated dataset for event-based surveillance of antimicrobial resistance;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;Has been validated by performing experiments with retrieval algorithms such as TF-Idf and Doc2Vec
+https://doi.org/10.1016/j.dib.2022.108894;An annotated dataset for event-based surveillance of antimicrobial resistance;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;Not provided
+https://doi.org/10.1016/j.dib.2022.108895;An annotated dataset for event-based surveillance of antimicrobial resistance;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;Not provided
+https://doi.org/10.1016/j.dib.2022.108896;An annotated dataset for event-based surveillance of antimicrobial resistance;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;The content of media data is anonymized by removing the user names and the names of person in transcripts (using SpaCy for name recognition).
+https://doi.org/10.1016/j.dib.2022.108436;Human-annotated dataset for social media sentiment analysis for Albanian language;"Uses: 
+The desing pruposes and uses of the dataset";Purposes and gaps of the dataset;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";"The purpose is to help in sentimental analysis on social media comments in Albanian language.
+
+
+Gaps: The scarcity of labeled data for low-resource languages
+
+Task: Sentiment-analysis, information-retrival"
+https://doi.org/10.1016/j.dib.2022.108437;Human-annotated dataset for social media sentiment analysis for Albanian language;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;"Uses: Another possible value of these data is that they could be used by public agencies and decision makers to prevent the distribution of fake news in social media during crisis situations such as the current Covid-19 pandemics. 
+
+The research community in the fields of machine learning, information retrieval, affective computing, education can benefit from these data by using them in various research tasks such as: (multilingual) sentiment analysis, opinion mining, performance analysis of
+deep/machine learning models and techniques."
+https://doi.org/10.1016/j.dib.2022.108438;Human-annotated dataset for social media sentiment analysis for Albanian language;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";Not tested
+https://doi.org/10.1016/j.dib.2022.108439;Human-annotated dataset for social media sentiment analysis for Albanian language;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;Fatbardh Kadriu, Doruntina Murtezaj, Fatbardh Gashi, Lule Ahmedi, Arianit Kurti, Zenun Kastrati
+https://doi.org/10.1016/j.dib.2022.108440;Human-annotated dataset for social media sentiment analysis for Albanian language;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;This research did not receive any specific grant
+https://doi.org/10.1016/j.dib.2022.108441;Human-annotated dataset for social media sentiment analysis for Albanian language;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;Not clearly mentioned
+https://doi.org/10.1016/j.dib.2022.108442;Human-annotated dataset for social media sentiment analysis for Albanian language;"Distribution: 
+How the dataset is distributed";Data repository links;The link where the data can be accesed if its online and open, or the place where the data can be demanded;Direct URL to data: https://data.mendeley.com/datasets/bj2gyvkgvx/4
+https://doi.org/10.1016/j.dib.2022.108443;Human-annotated dataset for social media sentiment analysis for Albanian language;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";Not mentioned
+https://doi.org/10.1016/j.dib.2022.108444;Human-annotated dataset for social media sentiment analysis for Albanian language;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;Not mentioned
+https://doi.org/10.1016/j.dib.2022.108445;Human-annotated dataset for social media sentiment analysis for Albanian language;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;Structure provided in table
+https://doi.org/10.1016/j.dib.2022.108446;Human-annotated dataset for social media sentiment analysis for Albanian language;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;Not mentioned
+https://doi.org/10.1016/j.dib.2022.108447;Human-annotated dataset for social media sentiment analysis for Albanian language;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant Statistics ;Consistency rules and constraints of the data, and relevant statistics of the data;Are in Table 1, table still not included
+https://doi.org/10.1016/j.dib.2022.108448;Human-annotated dataset for social media sentiment analysis for Albanian language;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;"The initial step is extraction of
+the comments from Facebook using the Comment Exporter tool. The entry point of the Comment Exporter tool is the Facebook post URL, while the output is an Excel ﬁle containing all the
+comments from the given post. In addition, the Excel ﬁle is enriched with four other attributes
+and metadata related to the Facebook post.
+In the second step, ﬁve other attributes related to the Covid-19 statistics are added by reading the content of the Facebook post. The third step entails the merge of all Excel ﬁles for
+each Facebook post into a single Excel ﬁle. Next the aggregated data set has been processed
+by anonymizing and removing duplicates as well as profanity language. During the ﬁfth step,
+three researchers have independently assessed the sentiment of the comments in the dataset.
+Assessment has been done using three sentiment polarities: positive, negative, and neutral. The
+ﬁnal sentiment of each comment is assigned using a majority voting scheme. This step ﬁnalized
+our dataset as a CSV ﬁle."
+https://doi.org/10.1016/j.dib.2022.108449;Human-annotated dataset for social media sentiment analysis for Albanian language;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Web Scrapping , User Generated
+https://doi.org/10.1016/j.dib.2022.108450;Human-annotated dataset for social media sentiment analysis for Albanian language;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;Authors 
+https://doi.org/10.1016/j.dib.2022.108451;Human-annotated dataset for social media sentiment analysis for Albanian language;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;Yes, but no demographics is presented
+https://doi.org/10.1016/j.dib.2022.108452;Human-annotated dataset for social media sentiment analysis for Albanian language;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;Facebook, noise tied to the social media networks
+https://doi.org/10.1016/j.dib.2022.108453;Human-annotated dataset for social media sentiment analysis for Albanian language;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;Kosovo, during 2020
+https://doi.org/10.1016/j.dib.2022.108454;Human-annotated dataset for social media sentiment analysis for Albanian language;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;"Comments were in Albanian language and are retrieved using a tool called Comment Exporter1 . This work aims to identify and
+extract the opinions and attitudes of Kosovo citizens expressed on Facebook about the Covid19 pandemics by manually annotating comments according to their sentiment, such as positive,
+negative, and neutral."
+https://doi.org/10.1016/j.dib.2022.108455;Human-annotated dataset for social media sentiment analysis for Albanian language;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;Text categorization, sentence classification
+https://doi.org/10.1016/j.dib.2022.108456;Human-annotated dataset for social media sentiment analysis for Albanian language;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;positive. Negative, neutral
+https://doi.org/10.1016/j.dib.2022.108457;Human-annotated dataset for social media sentiment analysis for Albanian language;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;Authors, internal team, no demogrphics
+https://doi.org/10.1016/j.dib.2022.108458;Human-annotated dataset for social media sentiment analysis for Albanian language;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;Manually done by the authors
+https://doi.org/10.1016/j.dib.2022.108459;Human-annotated dataset for social media sentiment analysis for Albanian language;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;Annotation Redundacy with Target Quality Assurance
+https://doi.org/10.1016/j.dib.2022.108460;Human-annotated dataset for social media sentiment analysis for Albanian language;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;No mentiond
+https://doi.org/10.1016/j.dib.2022.108461;Human-annotated dataset for social media sentiment analysis for Albanian language;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and Sensitivity iisues;Data imbalance, and representiveness issues for specific social groups, and the presence of information that can hurt the sensitivity of any social group;No mentiond
+https://doi.org/10.1016/j.dib.2022.108462;Human-annotated dataset for social media sentiment analysis for Albanian language;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;The dataset is anonymized
+https://doi.org/10.1016/j.dib.2022.108739;Dataset of prostate MRI annotated for anatomical zones and cancer;"Uses: 
+The desing pruposes and uses of the dataset";Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";"Purposes: This dataset provides segmentations from experts in urologic radiology which were exten- sively reviewed to ensure high quality segmentations. Researchers in computer vision, who do not have access to medical data and/or radiologic expertise, can therefore use it to de- velop new algorithms for prostate cancer detection
+
+Gaps: Expert annotated MRI datasets of confirmed prostate cancer are rare [8 , 12 , 13] , but are needed to develop sufficient deep learning algorithms to assist radiologists and urologists in the de- tection and treatment of prostate cancer. 
+
+Tasks: object-detection, image-segmentation
+
+Tags: "
+https://doi.org/10.1016/j.dib.2022.108740;Dataset of prostate MRI annotated for anatomical zones and cancer;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;"The dataset can serve either as a training dataset for developing new algorithms or as a test set for trained algorithms to check their performance and generalizability.
+
+No"
+https://doi.org/10.1016/j.dib.2022.108741;Dataset of prostate MRI annotated for anatomical zones and cancer;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";No
+https://doi.org/10.1016/j.dib.2022.108742;Dataset of prostate MRI annotated for anatomical zones and cancer;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;Paper authors
+https://doi.org/10.1016/j.dib.2022.108743;Dataset of prostate MRI annotated for anatomical zones and cancer;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;"by the Charité—Universitätsmedizin Berlin, the Berlin Institute of Health, and the Deutsche Forschungsgemeinschaft
+
+Type:mixed
+
+Grants ID:not provided"
+https://doi.org/10.1016/j.dib.2022.108744;Dataset of prostate MRI annotated for anatomical zones and cancer;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;"not provided
+
+Contribution guidelines:same as authors
+
+Erratum:no
+
+Data Retention:no"
+https://doi.org/10.1016/j.dib.2022.108745;Dataset of prostate MRI annotated for anatomical zones and cancer;"Distribution: 
+How the dataset is distributed";Data repository links;The link where the data can be accesed if its online and open, or the place where the data can be demanded;Repository name: https://zenodo.org Data identification number: 10.5281/zenodo.6481141 Access at: zenodo.org/record/6481141
+https://doi.org/10.1016/j.dib.2022.108746;Dataset of prostate MRI annotated for anatomical zones and cancer;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";"License: Repository name: https://zenodo.org Data identification number: 10.5281/zenodo.6481141 Access at: zenodo.org/record/6481141
+
+Thid-parties in-charge: not provided
+
+Attribution notice: not provided
+
+Data Stand-alone:not provided
+
+Model trained with the data:not provided"
+https://doi.org/10.1016/j.dib.2022.108747;Dataset of prostate MRI annotated for anatomical zones and cancer;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;no
+https://doi.org/10.1016/j.dib.2022.108748;Dataset of prostate MRI annotated for anatomical zones and cancer;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;"Files:→ adc.nii.gz # ADC sequence in NIfTI format → adc_tumor_reader1.nii.gz # Tumor segmentation of reader 1 → adc_tumor_reader2.nii.gz # Tumor segmentation of reader 2 → dwi.nii.gz # DWI sequence in NIfTI format → t2.nii.gz # T2W sequence in NIfTI format → t2_anatomy_reader1.nii.gz # Anatomy segmentation of reader 1 → t2_tumor_reader1.nii.gz # Tumor segmentation of reader 1
+
+Attributes:→ adc.nii.gz # ADC sequence in NIfTI format → adc_tumor_reader1.nii.gz # Tumor segmentation of reader 1 → adc_tumor_reader2.nii.gz # Tumor segmentation of reader 2 → dwi.nii.gz # DWI sequence in NIfTI format → t2.nii.gz # T2W sequence in NIfTI format → t2_anatomy_reader1.nii.gz # Anatomy segmentation of reader 1 → t2_tumor_reader1.nii.gz # Tumor segmentation of reader 1"
+https://doi.org/10.1016/j.dib.2022.108749;Dataset of prostate MRI annotated for anatomical zones and cancer;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;no
+https://doi.org/10.1016/j.dib.2022.108750;Dataset of prostate MRI annotated for anatomical zones and cancer;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;"no
+
+no"
+https://doi.org/10.1016/j.dib.2022.108751;Dataset of prostate MRI annotated for anatomical zones and cancer;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;The data set consists of 158 MRI examinations, all performed on Siemens VIDA and Skyra (Siemens Healthineers, Erlangen, Germany) clinical 3.0-T scanners according to an acquisition protocol that meets current guidelines and using B1 shimming.
+https://doi.org/10.1016/j.dib.2022.108752;Dataset of prostate MRI annotated for anatomical zones and cancer;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Physical data collection
+https://doi.org/10.1016/j.dib.2022.108753;Dataset of prostate MRI annotated for anatomical zones and cancer;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;"Authors
+
+Type: Internal team
+
+Demographics: No"
+https://doi.org/10.1016/j.dib.2022.108754;Dataset of prostate MRI annotated for anatomical zones and cancer;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;0
+https://doi.org/10.1016/j.dib.2022.108755;Dataset of prostate MRI annotated for anatomical zones and cancer;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;"
+
+Siemens VIDA and Skyra (Siemens Healthineers, Erlangen, Germany) clinical 3.0-T scanners
+
+Noise: 
+
+Link: "
+https://doi.org/10.1016/j.dib.2022.108756;Dataset of prostate MRI annotated for anatomical zones and cancer;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;"between 02/2016 and 01/2020.
+
+German university hospital (CharitéUniversity Hospital Berlin)"
+https://doi.org/10.1016/j.dib.2022.108757;Dataset of prostate MRI annotated for anatomical zones and cancer;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;0
+https://doi.org/10.1016/j.dib.2022.108758;Dataset of prostate MRI annotated for anatomical zones and cancer;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;0
+https://doi.org/10.1016/j.dib.2022.108759;Dataset of prostate MRI annotated for anatomical zones and cancer;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;T2W sequences and ADC maps were annotated by two board-certified radiologists with 6 and 8 years of experience, respectively. For T2W sequences, the central gland (central zone and transitional zone) and peripheral zone were seg- mented. If areas of suspected prostate cancer (PIRADS score of ≥4) were identified on examination, they were segmented in both the T2W sequences and ADC maps.
+https://doi.org/10.1016/j.dib.2022.108760;Dataset of prostate MRI annotated for anatomical zones and cancer;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;"Two experts radiologist
+
+Type:
+
+Demographics:No"
+https://doi.org/10.1016/j.dib.2022.108761;Dataset of prostate MRI annotated for anatomical zones and cancer;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;ITK-Snap
+https://doi.org/10.1016/j.dib.2022.108762;Dataset of prostate MRI annotated for anatomical zones and cancer;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;not provided
+https://doi.org/10.1016/j.dib.2022.108763;Dataset of prostate MRI annotated for anatomical zones and cancer;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;No
+https://doi.org/10.1016/j.dib.2022.108764;Dataset of prostate MRI annotated for anatomical zones and cancer;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;"No
+No
+
+Sensitivity: No"
+https://doi.org/10.1016/j.dib.2022.108765;Dataset of prostate MRI annotated for anatomical zones and cancer;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;Data is anonymized
+https://doi.org/10.1016/j.dib.2022.108863;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Uses: 
+The desing pruposes and uses of the dataset";Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";The dataset can be used in training and testing object detec- tion and classification machine learning models, and to test methodologies to derive sex ratios and species distribution range maps from camera trap data.
+https://doi.org/10.1016/j.dib.2022.108864;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;The dataset can be used to test methodology to derive sex ratios and species distribution range maps from camera trap data. There are no non-recommended uses.
+https://doi.org/10.1016/j.dib.2022.108865;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";Not specified
+https://doi.org/10.1016/j.dib.2022.108866;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;"Lorna Mugambi: Software, Data curation, Writing –original draft; Jason N. Kabi: Software, Writing –review & editing; Gabriel Kiarie: Software, Writing –review & editing; Ciira wa Maina: Conceptualization, Writing –review & editing, Supervision. Special thanks to Kaindio Kimathi, a warden at the wildlife conservancy who helped validate the annotation of the dataset."
+https://doi.org/10.1016/j.dib.2022.108867;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;The work was funded by Data Science Africa through the Centre for Data Science and Arti- ficial Intelligence (DSAIL) program, Canada’s International Development Research Centre (IDRC), and the Swedish International Development Cooperation Agency (Sida) through the Artificial In- telligence for Development in Africa (AI4D Africa) program. We also thank Google for a research award to DSAIL.
+https://doi.org/10.1016/j.dib.2022.108868;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;No specific information is given about the maintainers or maintenance policies
+https://doi.org/10.1016/j.dib.2022.108869;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Distribution: 
+How the dataset is distributed";Data repository links;The link where the data can be accesed if its online and open, or the place where the data can be demanded;Direct URL to data: https://data.mendeley.com/datasets/6mhrhn7rxc/6
+https://doi.org/10.1016/j.dib.2022.108870;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";No license information is given in the paper regarding the dataset or the associated software.
+https://doi.org/10.1016/j.dib.2022.108871;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;No deprecation policies are specified
+https://doi.org/10.1016/j.dib.2022.108872;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;Annotation of the images includes: species in an image, the count, sex of the animals, and the coordinates of the camera trap for each image captured. The data annotation is available on Mendeley Data as a .xlsx file. Images from the Raspberry Pi 2 and Raspberry Pi Zero are saved in one folder, ‘RaspberryPi_images’. In this folder, there are subfolders named in order of when the camera traps were deployed in the conservancy while images from the OpenMV Cam H7 are saved in another folder, ‘OpenMV_images’.
+https://doi.org/10.1016/j.dib.2022.108873;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;Unspecified
+https://doi.org/10.1016/j.dib.2022.108874;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;The paper does not specify any constraints or consistency rules. Some data is given about count and sex distribution in section 1.2 and Figures 3 and 4
+https://doi.org/10.1016/j.dib.2022.108875;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;The data were acquired using camera traps deployed in a wildlife conservancy during the day. Two camera traps use the Raspberry Pi 2, one uses the Raspberry Pi Zero and the other uses the OpenMV Cam H7 [4] . 7589 images are from the Raspberry Pi 2, 610 images are from the Raspberry Pi Zero, and 325 images are from the OpenMV Cam H7 [4] . The images from the Raspberry Pi 2 and the Raspberry Pi Zero have an image size of 1280 ×720 pixels while the images from the OpenMV Cam H7 have a size of 640 ×480 pixels. All the images are in JPG format. Once the Passive Infrared (PIR) sensor is triggered, an image is captured and saved in the micro-SD card. The program has a 2-second delay meaning it will wait 2 seconds before cap- turing another image even if the sensor is triggered. The captured images are saved with the format YYYY-MM-DD-H-M-S, to help keep track of the exact time the image was captured.
+https://doi.org/10.1016/j.dib.2022.108876;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Physycal data collection, Image data
+https://doi.org/10.1016/j.dib.2022.108877;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;The team gathering the data were the authors (not clear if all): Lorna Mugambi, Jason N. Kabi, Gabriel Kiarie, Ciira wa Maina. No specific information about their demographics is given.
+https://doi.org/10.1016/j.dib.2022.108878;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;No
+https://doi.org/10.1016/j.dib.2022.108879;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;The dataset consists of camera trap images collected at the Dedan Ki- mathi University Wildlife Conservancy (DeKUWC) in Kenya [3]. The dataset consists of 8524 images from the four camera traps deployed. Two camera traps use the Raspberry Pi 2, one uses the Raspberry Pi Zero and the other uses the OpenMV Cam H7 [4] .
+https://doi.org/10.1016/j.dib.2022.108880;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;Images collected at the Dedan Kimathi University Wildlife Conservancy (DeKUWC) in Kenya
+https://doi.org/10.1016/j.dib.2022.108881;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;The DSAIL-Porini dataset was manually annotated.
+https://doi.org/10.1016/j.dib.2022.108882;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;Image and video annotations
+https://doi.org/10.1016/j.dib.2022.108883;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;Filename, Device, Species, Count, Sex, Latitude, Longitude
+https://doi.org/10.1016/j.dib.2022.108884;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;Lorna Mugambi and Kaindio Kimathi. No demosgraphics information is given.
+https://doi.org/10.1016/j.dib.2022.108885;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;No specific information is given. The DSAIL-Porini dataset was manually annotated. The annotation were collected in an Excel file.
+https://doi.org/10.1016/j.dib.2022.108886;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;Kaindio Kimathi, a warden at the wildlife conservancy helped validate the annotation of the dataset.
+https://doi.org/10.1016/j.dib.2022.108887;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;No potential biases are specified
+https://doi.org/10.1016/j.dib.2022.108888;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;No data imbalances are described, although the number of individuals for each specie may vary a lot. In any case, this is mentioned as a factor to determine future population sizes rather than as a adata imalance.
+https://doi.org/10.1016/j.dib.2022.108889;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Social Concerns: 
+Explicit warning regarding the data. ";Sensitivity of the data;The presensce of information that can hurt the sensitivity of any social group;The authors specify that no ethics issues apply to this dataset.
+https://doi.org/10.1016/j.dib.2022.108890;DSAIL-Porini: Annotated camera trap image data of wildlife species from a conservancy in Kenya;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;Not specified
+https://doi.org/10.1016/j.dib.2023.108951;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Uses: 
+The desing pruposes and uses of the dataset";Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";These data are valuable for monitoring and analyzing public opinion on Twitter related to the COVID-19 vaccination program during Indonesia’s first ten months of the vaccination pro- gram, which is helpful as a guide in the development of policies. These data concern the opinion of Indonesians toward COVID-19 vaccination and serve as literature for public authorities to detect Indonesian sentiment toward the COVID-19 vacci- nation policies, which have some skeptics in several social groups. Moreover, these data can be used for many research purposes, including stance detection and aspect-based sentiment analysis, especially public opinion analysis on Twitter. This data can help the research community develop state-of-the-art models for stance de- tection on tweets, especially Indonesian opinion. Moreover, there may be another pandemic with vaccination policies, so the data can be compared and referenced for developing models. This data is not only for validating sentiment and contextual information for stance detection but can also be used for public opinion analysis of vaccination programs that tend to have pros and cons opin- ion. This dataset adds value aspect-based sentiment information as sub-topics for more accurate sentiment information at the aspect level on tweets, which possibly contains multiple issues discussed. Network features based on interaction relationships were provided for generated user community knowledge. Other researchers may use this data for aspect-based sentiment analysis on tweets to help identify sentiment more accurately, especially on short text.
+https://doi.org/10.1016/j.dib.2023.108952;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;No specific recommendations (or non-recommendations) are given besides the purposes of the dataset above
+https://doi.org/10.1016/j.dib.2023.108953;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";The authors applied five machine learning and four sequential-based deep learning models. Five machine-learning models, including Naïve Bayes (NB), K-Nearest Neighbor (KNN), Decision Tree (DT), Support Vector Machine (SVM), and Random Forest (RF). Four deep learning models, including Gated Recurrent Unit (GRU), Bidirectional GRU (BiGRU), Long Short-Term Memory (LSTM), and Bidirectional L STM (BiL STM) were also applied.
+https://doi.org/10.1016/j.dib.2023.108954;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;"Diana Purwitasari: Conceptualization, Methodology, Supervision, Funding acquisition, Writ- ing –review & editing, Project administration; Cornelius Bagus Purnama Putr a: Conceptual- ization, Methodology, Software, Writing –original draft, Data curation, Investigation; Agus Budi Raharjo: Writing –review & editing."
+https://doi.org/10.1016/j.dib.2023.108955;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;The work was supported by Indonesian Ministry of Research and Technology under Grant No. 084/E5/PG.02.00.PT/2022 with an institutional contract No. 1440/PKS/ITS/2022 .
+https://doi.org/10.1016/j.dib.2023.108956;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;No specific guidelines are provided
+https://doi.org/10.1016/j.dib.2023.108957;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Distribution: 
+How the dataset is distributed";Data accesability;The link where the data can be accesed if its online and open, or the place where the data can be demanded;Direct URL to data: https://data.mendeley.com/datasets/7ky2jbjwtn/3
+https://doi.org/10.1016/j.dib.2023.108958;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";Explicit information about the dataset license is not provided. The models that have been trained with the dataset have not been published.
+https://doi.org/10.1016/j.dib.2023.108959;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;Not specified
+https://doi.org/10.1016/j.dib.2023.108960;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;There were three data files in our dataset and readme file. All raw data (filtered and unfiltered list of tweets used in this study) are available in the repository Mendeley Data. The labeled dataset contains six columns (id, user_id, community, aspect_category, aspect_sentiment, stance). All the columns, except community, aspect_category, aspect_sentiment, and stance, are collected using Twitter API services. Meanwhile, the initial and cleaned dataset only contains two columns (id and user_id).
+https://doi.org/10.1016/j.dib.2023.108961;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;No specific recommendation is done, but the paper mentions in section 3.4 that each model was evaluated using 5-fold cross-validation to use 80% for learning and 20% of labeled data for testing the model.
+https://doi.org/10.1016/j.dib.2023.108962;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;The paper does not specify any consistency rules or constraints. Table 2 and Figure 2 describes the distribution of the dataset.
+https://doi.org/10.1016/j.dib.2023.108963;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;"The data were collected using Twitter API 1 on Python with specific keywords: vaksin (vac- cines) and vaksinasi (vaccination). The tweets used are Indonesian tweets posted between January and October 2021, Indonesia’s first period of COVID-19 vaccination. We collected a max- imum of 250,0 0 0 sample tweets each month to overcome the limitations of Twitter API services. This process collects the text of a tweet and other related information, including Twitter met- rics and user metadata. There were 2,400,414 Indonesian COVID-19 vaccine-related tweets from 576,488 Twitter users ( Indo_vaccination_raw.csv ) as the initial dataset. The study selected Indone- sian tweets based on the attribute language “in”on Twitter API services. However, we found a lot of irrelevant data, including non-Bahasa (Indonesian language), non-COVID-19 vaccine- related, and spam tweets, so we conducted data preprocessing and cleaning to remove the irrel- evant data for the cleaned dataset. The first step in data preprocessing was case folding to map the text to lowercase format. The irrelevant Twitter attributes were removed, including user mentions, hashtags, numbers, symbols, and emojis. The text of tweets generally contains slang words. Therefore, text normal- ization was carried out based on the Indonesian slang corpus 2 . Further data preprocessing in- cludes lemmatization using NLP-ID 3 and removing the stopwords using Sastrawi 4 . After the data preprocessing was complete, data cleaning was carried out, thus removing the irrelevant data (such as non-Bahasa, non-COVID-19 vaccine-related, and spam tweets). We found that in our initial dataset, there are many Malaysian tweets, even though it has been selected based on the Twitter attribute. Therefore, we filtered non-Bahasa (Malaysian tweets) and non-COVID-19 vaccine-related tweets based on the collected keywords. Moreover, we removed a tweet posted by the government to prevent bias in data; the government tends to support the COVID-19 vaccination policy and continuously posted du- plicate tweets to exaggerate information (spam tweets). We also only used accounts over 12 months since November 2021 because there is a possibility that a new Twitter account is a spammer. Finally, we obtained the cleaned dataset of 248,604 posts from 140,761 users ( Indo_vaccination_cleaned.csv ), representing 10% of the initial dataset ( Indo_vaccination_raw.csv ). "
+https://doi.org/10.1016/j.dib.2023.108964;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Web API, Web scraping
+https://doi.org/10.1016/j.dib.2023.108965;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;No specific demographics are specified
+https://doi.org/10.1016/j.dib.2023.108966;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Gathering: 
+How data have been collected";Demographics of the target of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;No specific demographics of the target subjects are specified (besides the language)
+https://doi.org/10.1016/j.dib.2023.108967;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;The data was collected from Twitter
+https://doi.org/10.1016/j.dib.2023.108968;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;January to October 2021, no specific location is specified 
+https://doi.org/10.1016/j.dib.2023.108969;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;Three independent analysts—two researchers in natural language pro- cessing (one MSc-level and one BSc-level) and one communication science expert (BS c -level)—labeled the data manually and used the majority voting strategy for the final class label.  This study applied data labeling using LabelStudio . For stance labeling, each tweet was annotated into three classes: favor, against, and neutra l. The tweet was given an favo r or against label if the opinion supported or opposed the target. The tweet was labeled neutral if the opinion was neither of these two cases or the statement about the target was inconclusive.
+https://doi.org/10.1016/j.dib.2023.108970;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;textual categorization
+https://doi.org/10.1016/j.dib.2023.108971;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;The labels were the aspect category (ser- vices, implementation, apps, costs, participants, vaccine products , and general) and the sentiment (favor, against, neutral)
+https://doi.org/10.1016/j.dib.2023.108972;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;Three independent analysts—two researchers in natural language pro- cessing (one MSc-level and one BSc-level) and one communication science expert (BS c -level)—labeled the data manually. No demoagraphicas information (besides it's position) is given.
+https://doi.org/10.1016/j.dib.2023.108973;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;LabelStudio
+https://doi.org/10.1016/j.dib.2023.108974;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;No explanation are given about the validation of the dataset. Section 3.4 reports on the potential and quality of the data set for the stance detection task.
+https://doi.org/10.1016/j.dib.2023.108975;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;No specific biases of the data are specified
+https://doi.org/10.1016/j.dib.2023.108976;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;No specifid sepresentativeness is mentioned (besides the obvious: focuses on Indonesian speakers)
+https://doi.org/10.1016/j.dib.2023.108977;A stance dataset with aspect-based sentiment information from Indonesian COVID-19 vaccination-related tweets;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;Data from Twitter could be used with care for the Privacy and Control of Twitter users. In the discussion, we processed the data and did not mention the pri- vacy information to protect Twitter users and ensure anonymity.
+https://doi.org/10.1038/s41597-022-01867-5;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Uses: 
+The desing pruposes and uses of the dataset";Purposes and gaps of the dataset;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";" Purpose is to preserveof cultural heritage of the balinese culture, by providing a dataset to train and evalaute the performance in character recognitiion on Balinese
+
+Gaps: There is a lack of data in balinese
+
+Tasks: Image-classification, object-detection, character-recognition"
+https://doi.org/10.1038/s41597-022-01867-6;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.; To train and evalaute character recognition systems in Balinese
+https://doi.org/10.1038/s41597-022-01867-7;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";Have been tested using YOLO, not metrics provided…
+https://doi.org/10.1038/s41597-022-01867-8;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;authors
+https://doi.org/10.1038/s41597-022-01867-9;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;" The study is supported by the Directorate General of Higher Education, Ministry of Education and Culture
+Republic of Indonesia under grant number 1564/PKS/ITS/2022."
+https://doi.org/10.1038/s41597-022-01867-10;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset; 
+https://doi.org/10.1038/s41597-022-01867-11;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Distribution: 
+How the dataset is distributed";Data repository links;The link where the data can be accesed if its online and open, or the place where the data can be demanded;"Available in figshare: DOI https://doi.org/10.6084/
+m9.figshare.20103803.v2 (2022)."
+https://doi.org/10.1038/s41597-022-01867-12;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";Freely accesible, no mention about other conditions
+https://doi.org/10.1038/s41597-022-01867-13;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset; 
+https://doi.org/10.1038/s41597-022-01867-14;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;"Composed of 600 images in JPEG. Every image following the format <filanem>.jpg and 600 txt files, following the same format. Also have a n annotation file which follows the YOLO format. <ID> <x> <y> <width> <height>, for instance: 54 0.068000 0.083333 0.016000 0.073333
+where <ID> is the object class ID, <x> is x coordinate, <y> is y coordinate, <width> is width of the bounding
+box, and <height> is heigh of the bounding box"
+https://doi.org/10.1038/s41597-022-01867-15;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;60/40
+https://doi.org/10.1038/s41597-022-01867-16;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant Statistics ;Consistency rules and constraints of the data, and relevant statistics of the data;In table 1, shows de 55 Belinese characters classes and its disitribution
+https://doi.org/10.1038/s41597-022-01867-17;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;From librires in Unversity in Bali, images where scanned
+https://doi.org/10.1038/s41597-022-01867-18;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Physical data collection
+https://doi.org/10.1038/s41597-022-01867-19;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;Internal team, do not have demographics
+https://doi.org/10.1038/s41597-022-01867-20;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;No
+https://doi.org/10.1038/s41597-022-01867-21;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;Libraries at the University of Bali, and scanners as infrastructure
+https://doi.org/10.1038/s41597-022-01867-22;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;University of Bali
+https://doi.org/10.1038/s41597-022-01867-23;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels; 
+https://doi.org/10.1038/s41597-022-01867-24;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;Bounding boxes
+https://doi.org/10.1038/s41597-022-01867-25;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;In Table 1
+https://doi.org/10.1038/s41597-022-01867-26;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;Authors, internal, no demogrpahics
+https://doi.org/10.1038/s41597-022-01867-27;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;LabelImg
+https://doi.org/10.1038/s41597-022-01867-28;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;Using YOLO
+https://doi.org/10.1038/s41597-022-01867-29;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;No
+https://doi.org/10.1038/s41597-022-01867-30;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and Sensitivity iisues;Data imbalance, and representiveness issues for specific social groups, and the presence of information that can hurt the sensitivity of any social group;No
+https://doi.org/10.1038/s41597-022-01867-31;DeepLontar dataset for handwritten Balinese character detection and syllable recognition on Lontar manuscript;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;No
+https://doi.org/10.1016/j.dib.2023.109014;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Uses: 
+The desing pruposes and uses of the dataset";Purposes, gaps and tasks;"The purposes of the creation of the dataset
+The gaps this dataset inted to fill or complement
+Representative tags of the dataset
+ML Tasks the dataset is inteded for";"To provide a dataset for Kurdish digits recognition, to train ML models 
+
+Gaps: In comparison to other languages such as Arab, there is no other in Kurdish to perform digit recognition"
+https://doi.org/10.1016/j.dib.2023.109015;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Uses: 
+The desing pruposes and uses of the dataset";Recommended and non-recommneded uses;The recommended and non-recommended uses of the dataset, and the warning towards its use.;"The datasets can be used for handwriting optical character/digit recognition and identifi- cation using machine learning and deep learning models. 
+
+The datasets can be used as a standard for usability and quality in subsequent works because they were collected in a precise way, and it is vast data that can achieve higher accuracy in designed models."
+https://doi.org/10.1016/j.dib.2023.109016;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Uses: 
+The desing pruposes and uses of the dataset";Machine learning benchmarks;"Has been tested with any machine learning approach?
+If yes, which results it gets with each specific ML model?";Not tested
+https://doi.org/10.1016/j.dib.2023.109017;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Contributors: 
+People and organizations behind the dataset";Authors ;Information regarding the creators of the dataset;authors
+https://doi.org/10.1016/j.dib.2023.109018;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Contributors: 
+People and organizations behind the dataset";Funder and funding information;Information about the organizations who fund the creation of the dataset, it's type (public, private, mixed),  and the particular grant id (if present).;No grants
+https://doi.org/10.1016/j.dib.2023.109019;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Contributors: 
+People and organizations behind the dataset";Maintainers and maintenance policies;Information about the maintainers, the erratums, the contribution guidelines, the data rentetion policies and update policies of the dataset;No clear mention, authors should be maintainers
+https://doi.org/10.1016/j.dib.2023.109020;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Distribution: 
+How the dataset is distributed";Data repository links;The link where the data can be accesed if its online and open, or the place where the data can be demanded;Data identification number: 10.17632/zb66pp7vjh.1 Direct URL to data: https://dx.doi.org/10.17632/zb66pp7vjh.1
+https://doi.org/10.1016/j.dib.2023.109021;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Distribution: 
+How the dataset is distributed";Licenses of the data and the models trained with it;"The license under the dataset is released, 
+Third-parties in-charge,
+Attribution notices,
+The rights of the data stand-alone
+The rights of the models trained with the data";Not mentioned, data is freely accesible
+https://doi.org/10.1016/j.dib.2023.109022;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Distribution: 
+How the dataset is distributed";Deprecation policies;Which are the plan and policies to deprecate the dataset;no
+https://doi.org/10.1016/j.dib.2023.109023;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Composition: 
+How the dataset is composed";Data record composition of the dataset;The folder and files  structure and format, and information of the attributes of the files.  ;Images in JPG and the annotation in bounding boxes
+https://doi.org/10.1016/j.dib.2023.109024;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Composition: 
+How the dataset is composed";Data splits;Is there any recommended data split of the data?;no
+https://doi.org/10.1016/j.dib.2023.109025;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Composition: 
+How the dataset is composed";Consistnecy Rules and relevant statistics;Consistency rules and constraints of the data and relevant statistics of the dataset;no
+https://doi.org/10.1016/j.dib.2023.109026;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Gathering: 
+How data have been collected";Description of the process;A summary of the gathering process applied over the data;gathering handwritten data from participants via designed forms which are labelled to indicate the type and position of the character/digit. The second step is a scanner device that scans the collected data in forms.
+https://doi.org/10.1016/j.dib.2023.109027;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Gathering: 
+How data have been collected";Processs Type;The type of the process from a set of provided types: Web API, Web Scrapping, Sensors, Manual Human Curator, Software collection, Surveys, Observations, Interviews, Focus groups, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Interviews, Document analysis, Secondary data analysis, Physical data collection, Self-reporting, Experiments, Direct measurement, Customer feedback data, Audio or video recordings, Image data, Biometric data, Medical or health data, Financial data, Geographic or spatial data, Time series data, User-generated content data.;Manual Human Curator
+https://doi.org/10.1016/j.dib.2023.109028;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Gathering: 
+How data have been collected";Information of the team gathering the data;Who gather the data, if its internal, external or a crowdworking serice, and its demographics information;Data collection forms were collected from more than 1500 participants., External, no demographics
+https://doi.org/10.1016/j.dib.2023.109029;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Gathering: 
+How data have been collected";Demographics of the process if involves people;If the target of the gathering are people (natural language form speakers, or medical records from patients), information about the demographics of the dataset;No
+https://doi.org/10.1016/j.dib.2023.109030;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Gathering: 
+How data have been collected";Information of the sources of the data;From where the data has been collected, and the potential noise issue of the source;Participants, using froms and scanners
+https://doi.org/10.1016/j.dib.2023.109031;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Gathering: 
+How data have been collected";Localization of the process;Where and when the data has been collected;Halbaja, Kurdistan Region in Iraq
+https://doi.org/10.1016/j.dib.2023.109032;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Annotation: 
+How data has been annotated";Description of the process;A summary of the annotation process to generate the labels;Each image is labeled with an ID number, each number represents a unique character
+https://doi.org/10.1016/j.dib.2023.109033;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Annotation: 
+How data has been annotated";Processs Type;The type of annotation process: Bounding boxes, Lines and splines, Semantinc Segmentation, 3D cuboids, Polygonal segmentation, Landmark and key-point, Image and video annotations, Entity annotation, Content and textual categorization;Bounding Boxes
+https://doi.org/10.1016/j.dib.2023.109034;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Annotation: 
+How data has been annotated";The generated labels;Which are the generated labels, and its mapping with specific attributes;Unique ID
+https://doi.org/10.1016/j.dib.2023.109035;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Annotation: 
+How data has been annotated";Information of the team annotating the data;Who annotates the data, form which type is (internal, external, crowdsourcing), and its demographics information;Authors, internal, no demogrpahics
+https://doi.org/10.1016/j.dib.2023.109036;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Annotation: 
+How data has been annotated";Infrastructure used to annotate the data;Which tools and platforms  has been used to annotate the data;Not clear
+https://doi.org/10.1016/j.dib.2023.109037;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Annotation: 
+How data has been annotated";Validations applied over the labels;Which validation methods have been applied to validate the annotations;
+https://doi.org/10.1016/j.dib.2023.109038;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Social Concerns: 
+Explicit warning regarding the data. ";Potential biases of the data;Potential biases of the dataset;
+https://doi.org/10.1016/j.dib.2023.109039;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Social Concerns: 
+Explicit warning regarding the data. ";Representativeness and sensitivity  issues;Data imbalance, and representiveness issues for specific social groups;
+https://doi.org/10.1016/j.dib.2023.109040;A vast dataset for Kurdish handwritten digits and isolated characters recognition;"Social Concerns: 
+Explicit warning regarding the data. ";Privacy concerns of the data;Data privacy concerns;
