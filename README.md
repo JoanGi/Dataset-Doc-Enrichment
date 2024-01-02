@@ -1,4 +1,4 @@
-# Experiment results and replication package of the paper "Using Large Language Models to Enrich the Documentation of Datasets for Machine Learning"
+# Experiment results and replication code and data of the paper "Using Large Language Models to Enrich the Documentation of Datasets for Machine Learning"
 
 ## What is it in this repository?
 
