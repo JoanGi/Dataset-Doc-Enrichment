@@ -40,4 +40,4 @@ In this folder readers can find the generated dataset for this experiment and th
 
 Each row of the dataset is composed of the DOI of the data papers, the title, the dimension, subdimensions, the explanation of the subdimensions, and the ground truth annotated by the researchers. To annotate the datasets, at least two researchers have read the data paper and the definition of the subdimension. Then they have annotated a short explanation. Then the explanation have been compared and the disagreements have been corrected in reiterative meetings. The results shown in the column ground truth is the agreement between boths.
 
-The dataset is presented in two formats, .csv and .xlsx with the exact same context.
+The dataset is presented in two formats, .csv and .xlsx with the same content.
